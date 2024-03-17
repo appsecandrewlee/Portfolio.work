@@ -1,20 +1,31 @@
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-//Libraries that is required to make NavigationClickable
 
-//Function for Navigation bar
+// Function for Navigation bar
 function NavigationClickable() {
   return (
-    //Navigation
+    // Navigation
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
+      <Navbar
+        style={{ borderBottom: "none", boxShadow: "none" }}
+        bg="#FFFFFF"
+        variant="light"
+      >
         <Container>
-          <Navbar.Brand href="#home">Andrew Lee</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Experience</Nav.Link>
-            <Nav.Link href="#features">Projects</Nav.Link>
-            <Nav.Link href="#pricing">Contact</Nav.Link>
+          <Navbar.Brand href="#home" style={{ color: "black" }}>
+            Andrew Lee
+          </Navbar.Brand>
+          <Nav className="ml-auto">
+            <Nav.Link href="#home" style={{ color: "black" }}>
+              Experience
+            </Nav.Link>
+            <Nav.Link href="#features" style={{ color: "black" }}>
+              Projects
+            </Nav.Link>
+            <Nav.Link href="#pricing" style={{ color: "black" }}>
+              Contact
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
