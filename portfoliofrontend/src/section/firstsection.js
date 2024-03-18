@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./section.css";
+import { Link } from "react-scroll";
 
 function FirstSection() {
   return (
@@ -24,16 +25,31 @@ function FirstSection() {
             }}
           >
             <a
-              href="#nextSection"
+              href="#aboutme"
               style={{
                 fontFamily: "Playfair Display",
-                marginBottom: "10rem",
+                marginBottom: "0.1rem",
                 display: "inline-block",
                 textDecoration: "none",
                 color: "inherit",
               }}
             >
-              <img src="/down_arrow.png" alt="Down arrow" /> {}
+              <Link
+                activeClass="active"
+                to="aboutme"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                <img
+                  src="/down_arrow.png"
+                  alt="Down arrow"
+                  style={{
+                    animation: "slideDown 1.5s infinite",
+                  }}
+                />
+              </Link>
             </a>
           </div>
         </Col>

@@ -31,3 +31,15 @@
     typewriter 3s steps(85, end) 0.5s forwards,
     blink-caret 0.75s step-end infinite;
 }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(20px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
