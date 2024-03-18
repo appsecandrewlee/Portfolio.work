@@ -1,0 +1,33 @@
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typewriter 2.5s steps(85, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+.typewriter-delayed p {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  animation:
+    typewriter 2.5s steps(85, end),
+    blink-caret 0.75s step-end infinite;
+}
+
+.typewriter-delayed p {
+  width: 0;
+  animation:
+    typewriter 3s steps(85, end) 0.5s forwards,
+    blink-caret 0.75s step-end infinite;
+}
