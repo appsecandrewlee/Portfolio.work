@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 function SecondSection() {
   return (
-    <Container style={{ paddingTop: "1rem" }}>
+    <Container style={{ paddingTop: "1rem", animation: "fadeIn 2s" }}>
       {" "}
       <Row>
         <Col className="text-center">
@@ -11,18 +11,19 @@ function SecondSection() {
           </h1>
           <p>
             My name is Andrew and I'm a recent graduate from Monash University,
-            where I double majored in Software Development and Computer Software
+            where I double majored in Software Development and Computer Networks
             Security, where I also grew a strong interest in Machine learning,
-            Algorithmic theory and Application development.
+            Algorithmic theory and Application development. My approach in
+            technology is characterized by a great understanding of development
+            and security, this distinctive skillset allows me to innovate and
+            problem-solve while maintaining data integrity and security in mind.
           </p>
 
           <p>
             <p id="aboutme">
-              Leveraging my specialized knowledge in both Software Development
-              and Security, my approach is characterized a great understanding
-              of development and security,This distinctive skill set allows me
-              to innovate and problem-solve while maintaining data integrity of
-              private companies and operating systems.
+              When I am not coding or designing systems, you can find me reading
+              articles or running at a nearby park, as I am a long distance
+              running enthusiast.
             </p>
           </p>
         </Col>
