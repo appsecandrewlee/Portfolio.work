@@ -1,13 +1,18 @@
 import NavigationClickable from "../navbar/navbar";
 import Footer from "../footer/footer";
-import Cards from "../card/card";
-
+import FirstSection from "../section/firstsection";
+import SecondSection from "../section/secondsection";
+import ThirdSection from "../section/thirdsection";
+import FourthSection from "../section/fourthsection";
 function RunEngine() {
   return (
     <>
       {NavigationClickable()}
       {Footer()}
-      {Cards()}
+      {FirstSection()}
+      {SecondSection()}
+      {ThirdSection()}
+      {FourthSection()}
     </>
   );
 }

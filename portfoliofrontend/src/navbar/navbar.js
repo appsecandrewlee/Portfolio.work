@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Container, Nav, Navbar, Image } from "react-bootstrap";
-import "./NavigationClickable.css";
+import { Nav, Navbar, Image } from "react-bootstrap";
+import "./navbar.css";
 
 const NavLink = ({ href, children, toggleSidebar }) => (
   <Nav.Link
@@ -25,72 +25,89 @@ function NavigationClickable() {
         style={{ borderBottom: "none", boxShadow: "none" }}
         bg="#FFFFFF"
         variant="light"
+        expand="lg"
       >
-        <Container>
+        <Navbar.Brand
+          onClick={toggleSidebar}
+          className="d-none d-lg-block"
+          style={{
+            color: "black",
+            fontFamily: "Playfair Display",
+            paddingLeft: "1rem",
+          }}
+        >
+          Menu
+        </Navbar.Brand>
+        <Navbar.Brand
+          href="#home"
+          className="d-block d-lg-none"
+          style={{
+            color: "black",
+            fontFamily: "Playfair Display",
+            fontWeight: 500,
+            paddingLeft: "1rem",
+          }}
+        >
+          Andrew Lee
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+          className="d-lg-none ml-auto"
+        >
+          <Image src="/hamburger.png" alt="Menu" width="35" height="35" />
+        </Navbar.Toggle>
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-center d-none d-lg-block"
+        >
           <Navbar.Brand
             href="#home"
-            className="d-block d-md-none"
             style={{
               color: "black",
-              fontFamily: "Playfair Display",
+              fontFamily: "Paul Signature",
               fontWeight: 500,
+              fontSize: 35,
             }}
           >
-            Andrew Lee
+            AL
           </Navbar.Brand>
+        </Navbar.Collapse>
+        <Nav className="pr-3 d-none d-lg-block">
           <Navbar.Brand
-            onClick={toggleSidebar}
-            style={{ color: "black", fontFamily: "Playfair Display" }}
-            className="d-none d-md-block"
-          >
-            Menu
-          </Navbar.Brand>
-          <Navbar.Brand
-            href="#home"
-            className="mx-auto d-none d-md-block"
             style={{
-              color: "black",
               fontFamily: "Playfair Display",
-              fontWeight: 500,
+              fontSize: 20,
+              paddingRight: "1rem",
             }}
+            href="#contact"
           >
-            Andrew Lee
+            Contact
           </Navbar.Brand>
-          <Navbar.Brand
-            onClick={toggleSidebar}
-            style={{ color: "black", fontFamily: "Playfair Display" }}
-            className="d-flex align-items-center ml-auto d-md-none"
-          >
-            <Image src="/hamburger.png" alt="Menu" width="35" height="35" />
-          </Navbar.Brand>
-          <div className={`sidebar ${showSidebar ? "show" : ""}`}>
-            <div className="sidebar-content">
-              <div className="d-flex justify-content-end">
-                <span
-                  onClick={toggleSidebar}
-                  style={{ cursor: "pointer", fontFamily: "Playfair Display" }}
-                >
-                  X
-                </span>
-              </div>
-              <Nav className="flex-column mt-4">
-                <NavLink href="#home" toggleSidebar={toggleSidebar}>
-                  Home
-                </NavLink>
-                <NavLink href="#about" toggleSidebar={toggleSidebar}>
-                  About
-                </NavLink>
-                <NavLink href="#services" toggleSidebar={toggleSidebar}>
-                  Services
-                </NavLink>
-              </Nav>
-            </div>
-          </div>
-          <Nav className="ml-auto d-none d-md-flex">
-            <NavLink href="#contact">Contact</NavLink>
-          </Nav>
-        </Container>
+        </Nav>
       </Navbar>
+      <div className={`sidebar ${showSidebar ? "show" : ""}`}>
+        <div className="sidebar-content">
+          <div className="d-flex justify-content-end">
+            <span
+              onClick={toggleSidebar}
+              style={{ cursor: "pointer", fontFamily: "Playfair Display" }}
+            >
+              X
+            </span>
+          </div>
+          <Nav className="flex-column mt-4">
+            <NavLink href="#home" toggleSidebar={toggleSidebar}>
+              Home
+            </NavLink>
+            <NavLink href="#about" toggleSidebar={toggleSidebar}>
+              About
+            </NavLink>
+            <NavLink href="#services" toggleSidebar={toggleSidebar}>
+              Services
+            </NavLink>
+          </Nav>
+        </div>
+      </div>
     </>
   );
 }

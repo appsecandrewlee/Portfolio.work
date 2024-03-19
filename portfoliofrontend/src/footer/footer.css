@@ -1,9 +1,13 @@
 .footer {
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: white;
-  color: white;
+  height: 0px;
+  background-color: #f8f9fa;
+  overflow-x: hidden;
+  transition: 0.5s;
+  z-index: 0;
+  color: black;
   text-align: center;
 }
