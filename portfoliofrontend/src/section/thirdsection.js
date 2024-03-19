@@ -44,7 +44,7 @@ function ThirdSection() {
                 <img
                   src="/computer.png"
                   alt="Computer"
-                  style={{ width: "58px", height: "50px" }}
+                  style={{ width: "52px", height: "50px" }}
                 />
                 <p
                   style={{
