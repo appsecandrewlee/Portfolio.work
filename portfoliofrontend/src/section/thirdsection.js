@@ -10,7 +10,7 @@ function ThirdSection() {
             style={{
               backgroundColor: "#ECECEC",
               width: "550px",
-              height: "200px",
+              height: "225px",
               margin: "10px auto",
               display: "flex",
               flexDirection: "column",
@@ -22,7 +22,7 @@ function ThirdSection() {
             {
               <p
                 style={{
-                  fontSize: "20px",
+                  fontSize: "25px",
                   fontFamily: "Playfair Display",
                 }}
               >
@@ -44,7 +44,7 @@ function ThirdSection() {
                 <img
                   src="/computer.png"
                   alt="Computer"
-                  style={{ width: "52px", height: "50px" }}
+                  style={{ width: "58px", height: "50px" }}
                 />
                 <p
                   style={{

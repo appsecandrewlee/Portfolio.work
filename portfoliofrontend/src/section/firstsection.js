@@ -10,13 +10,19 @@ function FirstSection() {
         <Col className="text-center">
           <div className="typewriter">
             <h1
-              style={{ fontFamily: "Playfair Display", marginBottom: "1rem" }}
+              style={{
+                fontFamily: "Playfair Display",
+                marginBottom: "1rem",
+                fontSize: "4.5rem",
+              }}
             >
               Hi, I'm Andrew!
             </h1>
           </div>
           <div className="typewriter-delayed">
-            <p>Full-Stack Software & Security Developer 🚀</p>
+            <p style={{ fontSize: "1rem" }}>
+              Full-Stack Software & Security Developer 🚀
+            </p>
           </div>
           <div
             style={{
