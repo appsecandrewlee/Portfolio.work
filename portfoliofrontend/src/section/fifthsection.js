@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./newsection.css";
+import { Card } from "react-bootstrap";
 import "./section.css";
 
 function FifthSection() {
@@ -12,54 +12,28 @@ function FifthSection() {
 
   return (
     <div className="d-flex justify-content-end">
-      <div className="d-flex align-items-start">
-        <div style={{ marginRight: "20px" }}> {}</div>
-        <div className="d-flex flex-column align-items-end">
-          <div
-            id={`flipcard`}
-            className="card-image flip-container"
-            onClick={toggle}
-            style={{
-              width: "500px",
-              height: "500px",
-              borderRadius: "10px",
-              marginTop: "500px",
-              marginBottom: "400px",
-              zIndex: 3,
-              position: "absolute",
-              left: "146vh",
-            }}
-          >
-            <div className="flipper">
-              <div className="front">
-                <div
-                  className="card-image"
-                  style={{
-                    width: "500px",
-                    height: "400px",
-                    backgroundImage: `url(${images[currentImage]})`,
-                    backgroundSize: "100% 100%",
-                    borderRadius: "10px",
-                  }}
-                />
-              </div>
-              <div className="back">
-                <div
-                  className="card-image"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    backgroundSize: "100% 100%",
-                    borderRadius: "10px",
-                  }}
-                >
-                  <p>Sample text here...</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Card
+        className="card"
+        onClick={toggle}
+        style={{
+          width: "75vh",
+          height: "37.5vh",
+          borderRadius: "15px",
+          marginTop: "200px",
+          marginBottom: "250px",
+        }}
+      >
+        <div
+          className="card-image"
+          style={{
+            width: "100%",
+            height: "100%",
+            backgroundImage: `url(${images[currentImage]})`,
+            backgroundSize: "100% 100%",
+            borderRadius: "10px",
+          }}
+        />
+      </Card>
     </div>
   );
 }
