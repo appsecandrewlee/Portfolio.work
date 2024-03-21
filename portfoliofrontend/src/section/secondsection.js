@@ -10,14 +10,14 @@ function SecondSection() {
             A little bit about me
           </h1>
           <p>
-            My name is Andrew and I'm a recent graduate from Monash University,
-            where I double majored in Software Development and Computer Networks
-            Security with an strong empthasis on Software Engineering. I also
-            grew a strong interest in Machine learning, Algorithmic theory and
-            Application development. My approach to technology is characterized
-            by a great understanding of development and security, this
-            distinctive skillset allows me to innovate and problem-solve while
-            maintaining data integrity and security in mind.
+            My name is Andrew and I'm a recent IT graduate from Monash
+            University, where I double majored in Software Development and
+            Computer Networks Security with a strong empthasis on Software
+            Engineering. I also grew a strong interest in Machine learning,
+            Algorithmic theory and Application development. My approach to
+            technology is characterized by a great understanding of development
+            and security, this distinctive skillset allows me to innovate and
+            problem-solve while maintaining data integrity and security in mind.
           </p>
 
           <p>

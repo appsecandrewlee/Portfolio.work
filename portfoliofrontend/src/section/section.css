@@ -93,3 +93,8 @@
 .card-image:hover {
   filter: brightness(1);
 }
+
+body,
+html {
+  overflow-x: hidden;
+}

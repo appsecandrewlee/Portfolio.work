@@ -21,7 +21,7 @@ function FirstSection() {
           </div>
           <div className="typewriter-delayed">
             <p style={{ fontSize: "1rem" }}>
-              Full-Stack Software & Security Developer 🚀
+              Aspiring Full-Stack Software & Security Engineer 🚀
             </p>
           </div>
           <div

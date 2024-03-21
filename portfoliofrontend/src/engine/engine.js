@@ -4,6 +4,8 @@ import FirstSection from "../section/firstsection";
 import SecondSection from "../section/secondsection";
 import ThirdSection from "../section/thirdsection";
 import FourthSection from "../section/fourthsection";
+import FifthSection from "../section/fifthsection";
+import SixthSection from "../section/sixthsection";
 function RunEngine() {
   return (
     <>
@@ -13,6 +15,8 @@ function RunEngine() {
       {SecondSection()}
       {ThirdSection()}
       {FourthSection()}
+      {FifthSection()}
+      {SixthSection()}
     </>
   );
 }

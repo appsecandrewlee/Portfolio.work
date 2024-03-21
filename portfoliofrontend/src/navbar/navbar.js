@@ -65,8 +65,8 @@ function NavigationClickable() {
             style={{
               color: "black",
               fontFamily: "Paul Signature",
-              fontWeight: 500,
-              fontSize: 35,
+              fontSize: 25,
+              marginLeft: "1.5rem",
             }}
           >
             AL
@@ -77,7 +77,6 @@ function NavigationClickable() {
             style={{
               fontFamily: "Playfair Display",
               fontSize: 20,
-              paddingRight: "1rem",
             }}
             href="#contact"
           >
