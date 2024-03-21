@@ -13,26 +13,23 @@ function SixthSection() {
               marginLeft: "5vh",
             }}
           >
-            Technologies that I've used<br></br>{" "}
+            Technologies that I've used
+            <br />{" "}
           </h1>
           <div
             style={{
               display: "flex",
+              flexDirection: "column",
               justifyContent: "center",
-              alignItems: "center",
+              alignItems: "flex-start",
               marginTop: "2vh",
               marginLeft: "2vh",
             }}
           >
             <img
               src="/cassandra.svg"
-              alt="Monash Logo"
-              style={{ height: "8vh", width: "auto", marginRight: "5rem" }}
-            />
-            <img
-              src="/firebase.svg"
-              alt="Firebase Logo"
-              style={{ height: "8vh", width: "auto", marginLeft: "5rem" }}
+              alt="Cassandra"
+              style={{ height: "12vh", width: "auto" }}
             />
           </div>
         </Col>
@@ -41,10 +38,10 @@ function SixthSection() {
             style={{
               fontFamily: "Playfair Display",
               fontSize: "2.7vh",
-              marginLeft: "5vh",
+              marginLeft: "3vh",
             }}
           >
-            Experience
+            Where I've worked
           </h1>
           <div
             style={{
@@ -52,7 +49,7 @@ function SixthSection() {
               justifyContent: "center",
               alignItems: "center",
               marginTop: "5vh",
-              marginLeft: "0.5vh",
+              marginLeft: "3vh",
             }}
           >
             <a
@@ -63,7 +60,7 @@ function SixthSection() {
               <img
                 src="/University.png"
                 alt="Monash University Logo"
-                style={{ height: "9vh", width: "auto", marginLeft: "3rem" }} // Adjusted size and margin of the logo
+                style={{ height: "9vh", width: "auto" }}
               />
             </a>
           </div>
