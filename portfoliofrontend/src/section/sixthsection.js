@@ -1,57 +1,56 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import "./SixthSection.css";
 
 function SixthSection() {
   return (
     <Container style={{ paddingTop: "0.5rem", animation: "fadeIn 2s" }}>
+      <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
+        My journey
+      </h1>
+      <p className="text-center">
+        I have been in the Software Development space for 2 years now.<br></br>{" "}
+        I'm a passionate individual that is always eager to grow. <br></br> Here
+        is a summary of:
+      </p>
       <Row className="text-center">
         <Col xs={12} md={6}>
-          <h1
-            style={{
-              fontFamily: "Playfair Display",
-              fontSize: "2.1vh",
-              marginLeft: "5vh",
-            }}
-          >
-            Technologies that I've used
-            <br />{" "}
-          </h1>
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "column",
-              justifyContent: "center",
-              alignItems: "flex-start",
-              marginTop: "2vh",
-              marginLeft: "2vh",
-            }}
-          >
-            <img
-              src="/cassandra.svg"
-              alt="Cassandra"
-              style={{ height: "12vh", width: "auto" }}
-            />
+          <h1 className="section-title">Technologies that I've used</h1>
+          <div className="logos-container">
+            <img src="/cassandra.svg" alt="Cassandra" className="logo" />
+            <img src="/php.png" alt="PHP" className="logo" />
+            <img src="/javascript.svg" alt="JS" className="logo" />
+            <img src="/react.svg" alt="React" className="logo" />
+            <img src="/dart.svg" alt="Dart" className="logo" />
+            <img src="/css.svg" alt="CSS" className="logo" />
+            <img src="/python.svg" alt="Python" className="logo" />
+            <img src="/mysql.svg" alt="MySQL" className="logo" />
+            <img src="/html.svg" alt="HTML" className="logo" />
+            <img src="/bootstrap.svg" alt="Bootstrap" className="logo" />
+            <img src="/java.svg" alt="Java" className="logo" />
+            <img src="android-studio.svg" alt="Android" className="logo" />
+            <img src="/angular.svg" alt="Angular" className="logo" />
+            <img src="/typescript.svg" alt="Typescript" className="logo" />
+            <img src="/Djangoproject.svg" alt="Django" className="logo" />
+            <img src="/git.svg" alt="Git" className="logo" />
+            <img src="/npm.svg" alt="NPM" className="logo" />
+            <img src="/bash.svg" alt="Bash" className="logo" />
+            <img src="/mongodb.svg" alt="MongoDB" className="logo" />
+            <img src="/firebase.svg" alt="Firebase" className="logo" />
+            <img src="/Amazon.svg" alt="Amazon Services" className="logo" />
+            <img src="/json.svg" alt="Json" className="logo" />
+            <img src="/github.svg" alt="github" className="logo" />
+            <img src="/gcloud.svg" alt="Google Cloud" className="logo" />
+            <img src="/c.svg" alt="C" className="logo" />
+            <img src="/jquery.svg" alt="Jquery" className="logo" />
+            <img src="/nodejs.svg" alt="nodejs" className="logo" />
+            <img src="/Linux.png" alt="Linux" className="logo" />
           </div>
         </Col>
+
         <Col xs={12} md={6}>
-          <h1
-            style={{
-              fontFamily: "Playfair Display",
-              fontSize: "2.7vh",
-              marginLeft: "3vh",
-            }}
-          >
-            Where I've worked
-          </h1>
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "center",
-              alignItems: "center",
-              marginTop: "5vh",
-              marginLeft: "3vh",
-            }}
-          >
+          <h1 className="section-title">Where I've worked</h1>
+          <div className="monash-logo-container">
             <a
               href="https://www.monash.edu/medicine/spahc/paramedicine"
               target="_blank"
@@ -60,7 +59,7 @@ function SixthSection() {
               <img
                 src="/University.png"
                 alt="Monash University Logo"
-                style={{ height: "9vh", width: "auto" }}
+                className="monash-logo"
               />
             </a>
           </div>
