@@ -34,26 +34,27 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: left;
-  margin-top: 1.5vh;
+  margin-top: 0vh;
 }
 
 .monash-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5vh;
+  margin-top: 0vh;
+  margin-left: 4.5vh;
 }
 
 .dwell-logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 2vh;
-  margin-left: 3.5vh;
+  margin-top: 0vh;
+  margin-left: 0vh;
 }
 
 .dwell-logo {
-  height: 12vh;
+  height: 9vh;
   width: auto;
 }
 
@@ -83,6 +84,26 @@
   filter: brightness(100%);
 }
 .monash-logo {
-  height: 12vh;
+  height: 8vh;
   width: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.summary-background {
+  background-color: #ececec;
+  padding: 1.5rem 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .summary-background {
+    padding: 2rem 0;
+  }
 }
