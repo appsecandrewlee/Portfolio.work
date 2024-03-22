@@ -1,12 +1,37 @@
 .section-title {
   font-family: "Playfair Display";
   font-size: 2.1vh;
-  margin-left: 5vh;
+  margin-left: 0vh;
+}
+
+.section-title2 {
+  font-family: "Playfair Display";
+  font-size: 2.1vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2vh;
+  margin-left: 20vh;
+}
+
+.section-title3 {
+  font-family: "Playfair Display";
+  font-size: 2.1vh;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 0vh;
+  margin-left: -5vh;
+}
+
+/* Adjust the margin for smaller screens */
+@media (max-width: 768px) {
+  .section-title2 {
+    margin-left: 0vh;
+  }
 }
 
 .logos-container {
   display: flex;
-  flex-wrap: wrap; /* Allow logos to wrap to the next line */
+  flex-wrap: wrap;
   justify-content: center;
   align-items: left;
   margin-top: 1.5vh;
@@ -19,13 +44,47 @@
   margin-top: 5vh;
 }
 
+.dwell-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  margin-left: 3.5vh;
+}
+
+.dwell-logo {
+  height: 12vh;
+  width: auto;
+  margin-right: 5vh;
+}
+
 .logo {
   height: 8vh;
   width: auto;
-  margin: 0.5rem; /* Add margin around logos */
+  margin: 0.5rem;
+  opacity: 0.6;
+  filter: brightness(85%);
+  transition:
+    opacity 0.3s ease,
+    filter 0.3s ease;
 }
 
+.logo2 {
+  height: 8vh;
+  width: auto;
+  margin: 0.5rem;
+  margin-left: -4vh;
+  transition:
+    opacity 0.3s ease,
+    filter 0.3s ease;
+}
+
+.logo:hover {
+  opacity: 1;
+  filter: brightness(100%);
+}
 .monash-logo {
   height: 12vh;
   width: auto;
+  margin-right: 5vh;
 }
