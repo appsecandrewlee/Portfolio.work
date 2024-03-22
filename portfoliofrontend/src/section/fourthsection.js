@@ -7,6 +7,7 @@ function FourthSection() {
     "Sentiment-Analysis",
     "Penetration-Testing",
     "Microservices",
+    "Navigation-Prototype",
   ];
   const [currentProject, setCurrentProject] = useState(projects[0]);
   const [key, setKey] = useState(0);
@@ -25,7 +26,7 @@ function FourthSection() {
 
   return (
     <div className="fourth-section">
-      <Container style={{ paddingTop: "1rem", animation: "fadeIn 2s" }}>
+      <Container style={{ paddingTop: "8rem", animation: "fadeIn 2s" }}>
         <Row>
           <Col className="text-center">
             <h1

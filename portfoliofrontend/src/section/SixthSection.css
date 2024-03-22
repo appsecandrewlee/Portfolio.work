@@ -55,7 +55,6 @@
 .dwell-logo {
   height: 12vh;
   width: auto;
-  margin-right: 5vh;
 }
 
 .logo {
@@ -73,7 +72,7 @@
   height: 8vh;
   width: auto;
   margin: 0.5rem;
-  margin-left: -4vh;
+
   transition:
     opacity 0.3s ease,
     filter 0.3s ease;
@@ -86,5 +85,4 @@
 .monash-logo {
   height: 12vh;
   width: auto;
-  margin-right: 5vh;
 }

@@ -4,21 +4,18 @@ import "./SixthSection.css";
 
 function SixthSection() {
   return (
-    <Container style={{ paddingTop: "0.5rem", animation: "fadeIn 2s" }}>
-      <h1
-        className="text-center"
-        style={{ fontFamily: "Playfair Display", marginRight: "3.5vh" }}
-      >
+    <Container style={{ paddingTop: "8rem", animation: "fadeIn 2s" }}>
+      <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
         Experience
       </h1>
-      <p className="text-center" style={{ marginRight: "3.5vh" }}>
+      <p className="text-center" style={{}}>
         I have been in the Software Development space for over 2 years now.
         <br></br> I'm a passionate individual that is always eager to grow.{" "}
         <br></br> Here is a summary of:
       </p>
       <Row className="text-center">
         <Col xs={12} md={6}>
-          <h1 className="section-title">Technologies that I've used</h1>
+          <h1 className="section-title">Technologies I've used</h1>
           <div className="logos-container">
             <img src="/cassandra.svg" alt="Cassandra" className="logo" />
             <img src="/php.png" alt="PHP" className="logo" />
@@ -49,13 +46,12 @@ function SixthSection() {
             <img src="/nodejs.svg" alt="nodejs" className="logo" />
             <img src="/Linux.png" alt="Linux" className="logo" />
             <img src="/neo4j.png" alt="neo4j" className="logo" />
+            <img src="/oracle.svg" alt="oracle" className="logo" />
           </div>
         </Col>
 
         <Col xs={12} md={6}>
-          <h1 className="section-title" style={{ marginRight: "6vh" }}>
-            Where I've worked
-          </h1>
+          <h1 className="section-title">Where I've worked</h1>
           <div className="monash-logo-container">
             <a
               href="https://www.monash.edu/medicine/spahc/paramedicine"
@@ -89,12 +85,14 @@ function SixthSection() {
           />
           <img src="/SOLID.png" alt="SOLID Logo" className="logo" />
           <img src="/mvc.png" alt="MVC Logo" className="logo" />
+          <img src="/client-server.png" alt="client-server" className="logo" />
+          <img src="/async.png" alt="async" className="logo" />
 
           {}
         </Col>
 
         <Col xs={12} md={6}>
-          <h1 className="section-title3">
+          <h1 className="section-title">
             Volunteer as tribute [move margins up and add extra img]
           </h1>
           <img src="/MAC.png" alt="cybersec Logo" className="logo2" />
