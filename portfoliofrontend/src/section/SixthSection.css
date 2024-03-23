@@ -62,7 +62,7 @@
   height: 8vh;
   width: auto;
   margin: 0.5rem;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: brightness(85%);
   transition:
     opacity 0.3s ease,
@@ -91,19 +91,4 @@
 body {
   margin: 0;
   padding: 0;
-}
-
-.summary-background {
-  background-color: #ececec;
-  padding: 1.5rem 0;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media (max-width: 768px) {
-  .summary-background {
-    padding: 2rem 0;
-  }
 }

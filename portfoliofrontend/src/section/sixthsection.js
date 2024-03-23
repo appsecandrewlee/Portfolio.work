@@ -4,11 +4,11 @@ import "./SixthSection.css";
 
 function SixthSection() {
   return (
-    <Container style={{ paddingTop: "6rem", animation: "fadeIn 2s" }}>
+    <Container style={{ paddingTop: "8rem", animation: "fadeIn 2s" }}>
       <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
         Experience
       </h1>
-      <p className="text-center" style={{}}>
+      <p className="text-center">
         I have been in the Software Development space for over 2 years now.
         <br></br> I'm a passionate individual that is always eager to grow.{" "}
         <br></br>

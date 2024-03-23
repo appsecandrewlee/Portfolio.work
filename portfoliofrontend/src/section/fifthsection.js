@@ -16,11 +16,11 @@ function FifthSection() {
         className="card"
         onClick={toggle}
         style={{
-          width: "70vh",
-          height: "36.5vh",
+          width: "47.5vh",
+          height: "26.5vh",
 
           borderRadius: "15px",
-          marginTop: "200px",
+          marginTop: "10vh",
           marginBottom: "250px",
           transition: "background-image 1s ease-in-out",
         }}

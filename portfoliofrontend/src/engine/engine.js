@@ -6,6 +6,8 @@ import ThirdSection from "../section/thirdsection";
 import FourthSection from "../section/fourthsection";
 import FifthSection from "../section/fifthsection";
 import SixthSection from "../section/sixthsection";
+import SeventhSection from "../section/SeventhSection";
+import CursorTracker from "../cursor/cursortracking";
 function RunEngine() {
   return (
     <>
@@ -14,9 +16,11 @@ function RunEngine() {
       {FirstSection()}
       {SecondSection()}
       {ThirdSection()}
+      {SixthSection()}
       {FourthSection()}
       {FifthSection()}
-      {SixthSection()}
+      {SeventhSection()}
+      {CursorTracker()}
     </>
   );
 }
