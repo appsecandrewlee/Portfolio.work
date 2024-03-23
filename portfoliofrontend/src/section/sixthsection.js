@@ -110,6 +110,17 @@ function SixthSection() {
 
         <Col xs={12} md={6}></Col>
       </Row>
+      <h1
+        style={{ fontFamily: "Playfair Display", marginTop: "9vh" }}
+        className="text-center"
+      >
+        Passion
+      </h1>
+      <p style={{}} className="text-center">
+        ongoing reading and some projects <br></br>that I am currently doing for
+        fun
+      </p>
+      <br></br>
     </Container>
   );
 }

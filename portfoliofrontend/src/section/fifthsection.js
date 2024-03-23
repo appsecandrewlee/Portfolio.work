@@ -1,41 +1,34 @@
-import React, { useState } from "react";
+import React from "react";
 import { Card } from "react-bootstrap";
 import "./section.css";
+import "./carousel.css";
 
 function FifthSection() {
-  const [currentImage, setCurrentImage] = useState(0);
-  const images = ["/CMS_showcase.png", "/computer.png", "/ai.png"];
-
-  function toggle() {
-    setCurrentImage((currentImage + 1) % images.length);
-  }
+  const images = [
+    "/medium.png",
+    "/IOS.jpg",
+    "/improvement.jpg",
+    "/Kali.png",
+    "/OracleVM.png",
+    "/stack.jpg",
+    "/code.jpeg",
+    "/pragmatic.jpeg",
+  ];
 
   return (
-    <div className="d-flex justify-content-end">
-      <Card
-        className="card"
-        onClick={toggle}
-        style={{
-          width: "47.5vh",
-          height: "26.5vh",
-
-          borderRadius: "15px",
-          marginTop: "10vh",
-          marginBottom: "250px",
-          transition: "background-image 1s ease-in-out",
-        }}
-      >
-        <div
-          className="card-image"
-          style={{
-            width: "100%",
-            height: "100%",
-            backgroundImage: `url(${images[currentImage]})`,
-            backgroundSize: "100% 100%",
-            borderRadius: "10px",
-          }}
-        />
-      </Card>
+    <div className="carousel-container">
+      <div className="carousel-wrapper">
+        {images.map((image, index) => (
+          <Card key={index} className="card">
+            <div
+              className="card-image"
+              style={{
+                backgroundImage: `url(${image})`,
+              }}
+            />
+          </Card>
+        ))}
+      </div>
     </div>
   );
 }

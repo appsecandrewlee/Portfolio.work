@@ -31,7 +31,7 @@ function FourthSection() {
             <h1
               style={{
                 fontFamily: "Playfair Display",
-                paddingTop: "10px",
+                paddingTop: "5vh",
                 marginRight: "20px",
               }}
             >
@@ -41,7 +41,7 @@ function FourthSection() {
               >
                 {currentProject.split("").map((char, index) => (
                   <span
-                    key={`${key}-${index}`}
+                    key={`${currentProject}-${index}`}
                     className="letter"
                     style={{ animationDelay: `${index * 0.1}s` }}
                   >
