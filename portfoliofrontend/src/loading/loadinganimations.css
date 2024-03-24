@@ -1,0 +1,43 @@
+@keyframes slide-up {
+  0% {
+    transform: translateY(100%);
+    opacity: 0; /* Start with opacity 0 */
+  }
+  50% {
+    opacity: 1; /* Fade in halfway through */
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 9999;
+  animation: slide-down 1s forwards;
+  animation-delay: 2.5s;
+}
