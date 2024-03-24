@@ -66,7 +66,36 @@
   filter: brightness(85%);
   transition:
     opacity 0.3s ease,
-    filter 0.3s ease;
+    filter 0.3s ease,
+    transform 0.8s ease; /* Add transform to the transition */
+}
+
+.logo:hover {
+  opacity: 1;
+  filter: brightness(100%);
+  transform: rotate(360deg); /* Add rotation on hover */
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.monash-logo {
+  height: 8vh;
+  width: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 .logo2 {
@@ -77,18 +106,4 @@
   transition:
     opacity 0.3s ease,
     filter 0.3s ease;
-}
-
-.logo:hover {
-  opacity: 1;
-  filter: brightness(100%);
-}
-.monash-logo {
-  height: 8vh;
-  width: auto;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }

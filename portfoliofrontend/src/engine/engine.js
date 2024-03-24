@@ -8,17 +8,19 @@ import FifthSection from "../section/fifthsection";
 import SixthSection from "../section/sixthsection";
 import SeventhSection from "../section/SeventhSection";
 import CursorTracker from "../cursor/cursortracking";
+import LoadingAnimation from "../loading/loading";
 function RunEngine() {
   return (
     <>
+      {LoadingAnimation()}
       {NavigationClickable()}
       {Footer()}
       {FirstSection()}
       {SecondSection()}
       {ThirdSection()}
       {SixthSection()}
-      {FourthSection()}
       {FifthSection()}
+      {FourthSection()}
       {SeventhSection()}
       {CursorTracker()}
     </>

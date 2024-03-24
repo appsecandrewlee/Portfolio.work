@@ -8,7 +8,7 @@ function SixthSection() {
       <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
         Experience
       </h1>
-      <p className="text-center">
+      <p className="text-center" id="Experience">
         I have been in the Software Development space for over 2 years now.
         <br></br> I'm a passionate individual that is always eager to grow.{" "}
         <br></br>
@@ -117,8 +117,7 @@ function SixthSection() {
         Passion
       </h1>
       <p style={{}} className="text-center">
-        ongoing reading and some projects <br></br>that I am currently doing for
-        fun
+        My reading and some projects <br></br>that I am currently doing for fun
       </p>
       <br></br>
     </Container>

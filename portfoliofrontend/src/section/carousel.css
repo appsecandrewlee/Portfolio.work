@@ -30,21 +30,21 @@
   }
   10%,
   90% {
-    transform: translateX(-5%);
+    transform: translateX(-10%);
   }
   20%,
   80% {
-    transform: translateX(-10%);
+    transform: translateX(-20%);
   }
   30%,
   70% {
-    transform: translateX(-15%);
+    transform: translateX(-30%);
   }
   40%,
   60% {
-    transform: translateX(-20%);
+    transform: translateX(-40%);
   }
   50% {
-    transform: translateX(-25%);
+    transform: translateX(-50%);
   }
 }

@@ -11,7 +11,14 @@ function FifthSection() {
     "/Kali.png",
     "/OracleVM.png",
     "/stack.jpg",
+    "/pragmatic.jpeg",
     "/code.jpeg",
+    "/medium.png",
+    "/IOS.jpg",
+    "/improvement.jpg",
+    "/Kali.png",
+    "/OracleVM.png",
+    "/stack.jpg",
     "/pragmatic.jpeg",
   ];
 

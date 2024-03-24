@@ -1,12 +1,3 @@
-@keyframes typewriter {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -16,13 +7,37 @@
   }
 }
 
+@keyframes typewriter {
+  0% {
+    width: 0;
+    color: transparent; /* Start with transparent text */
+  }
+  1% {
+    color: black; /* Change the color to black when the animation starts */
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  margin: 0 auto;
   animation:
-    typewriter 2.5s steps(85, end),
+    typewriter 2.5s steps(85, end) 2.8s,
     blink-caret 0.75s step-end infinite;
+  animation-fill-mode: forwards; /* Keeps the styles declared in the 100% keyframe after the animation ends */
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto;
+  animation:
+    typewriter 2.5s steps(85, end) 2.7s,
+    blink-caret 0.75s step-end infinite;
+  animation-fill-mode: forwards; /* Keeps the styles declared in the 100% keyframe after the animation ends */
 }
 
 .typewriter-delayed p {
@@ -30,14 +45,14 @@
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   animation:
-    typewriter 2.5s steps(85, end),
+    typewriter 2.5s steps(85, end) 3.2s,
     blink-caret 0.75s step-end infinite;
 }
 
 .typewriter-delayed p {
   width: 0;
   animation:
-    typewriter 3s steps(85, end) 0.5s forwards,
+    typewriter 3s steps(85, end) 3.2s forwards,
     blink-caret 0.75s step-end infinite;
 }
 

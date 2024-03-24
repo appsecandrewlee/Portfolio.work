@@ -2,17 +2,20 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 0;
+  width: 100%;
   height: 0;
-  background-color: #f8f9fa;
+  background-color: black;
   overflow-x: hidden;
-  transition: 0.5s;
-  z-index: 9999; /* Ensure the sidebar is above all other elements */
+  transition:
+    height 0.5s,
+    transform 0.5s;
+  z-index: 9999;
+  transform: translateY(-100%);
 }
 
 .sidebar.show {
-  width: 100%;
   height: 100%;
+  transform: translateY(0%);
 }
 
 .sidebar-content {
@@ -23,6 +26,39 @@
   align-items: center;
 }
 
+.sidebar.show .sidebar-content {
+  animation: slide-up 2s forwards;
+}
+
 .nav-link {
   margin: 10px 0;
+}
+
+body.sidebar-open::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 9998;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(100%);
+  }
 }

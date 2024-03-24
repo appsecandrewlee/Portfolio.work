@@ -5,7 +5,7 @@ function SecondSection() {
     <Container style={{ paddingTop: "1rem", animation: "fadeIn 2s" }}>
       {" "}
       <Row>
-        <Col className="text-center">
+        <Col className="text-center" id="aboutme">
           <h1 style={{ fontFamily: "Playfair Display" }}>
             A little bit about me
           </h1>

@@ -2,25 +2,26 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./section.css";
 import { Link } from "react-scroll";
+import "../loading/loadinganimations.css";
 
 function FirstSection() {
   return (
-    <Container className="mt-5" style={{ paddingTop: "10rem" }}>
+    <Container className="mt-5" style={{ paddingTop: "8vh" }}>
       <Row>
         <Col className="text-center">
           <div className="typewriter">
             <h1
               style={{
                 fontFamily: "Playfair Display",
-                marginBottom: "1rem",
-                fontSize: "4.5rem",
+                marginBottom: "1vh",
+                fontSize: "6vh",
               }}
             >
               Hi, I'm Andrew!
             </h1>
           </div>
           <div className="typewriter-delayed">
-            <p style={{ fontSize: "1rem" }}>
+            <p style={{ fontSize: "1.9vh" }}>
               Aspiring Full-Stack Software & Security Engineer 🚀
             </p>
           </div>
