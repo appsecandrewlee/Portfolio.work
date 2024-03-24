@@ -93,7 +93,13 @@ function NavigationClickable() {
           aria-controls="responsive-navbar-nav"
           className="d-lg-none ml-auto"
         >
-          <Image src="/hamburger.png" alt="Menu" width="35" height="35" />
+          <Image
+            src="/hamburger.png"
+            alt="Menu"
+            width="35"
+            height="35"
+            onClick={toggleSidebar}
+          />
         </Navbar.Toggle>
         <Navbar.Collapse
           id="responsive-navbar-nav"
@@ -158,9 +164,11 @@ function NavigationClickable() {
             {currentDate}
           </span>
           <span
+            onClick={() => setShowSidebar(false)}
             style={{
               fontFamily: "Playfair Display",
               color: "#ECECEC",
+              cursor: "pointer",
               fontSize: "3vh",
               position: "absolute",
               top: "0",
