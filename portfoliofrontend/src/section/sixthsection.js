@@ -74,8 +74,6 @@ function SixthSection() {
               <img src="/npm.svg" alt="NPM" className="logo" />
             </a>
 
-            <img src="/bash.svg" alt="Bash" className="logo" />
-
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
               <img src="/mongodb.svg" alt="MongoDB" className="logo" />
             </a>
@@ -89,8 +87,6 @@ function SixthSection() {
             <a href="https://github.com/appsecandrewlee?tab=repositories">
               <img src="/github.svg" alt="github" className="logo" />
             </a>
-
-            <img src="/gcloud.svg" alt="Google Cloud" className="logo" />
 
             <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
               <img src="/c.svg" alt="C" className="logo" />
