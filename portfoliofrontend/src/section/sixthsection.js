@@ -39,12 +39,15 @@ function SixthSection() {
             <a href="https://github.com/appsecandrewlee/hackathon-ML">
               <img src="/dart.svg" alt="Dart" className="logo" />
             </a>
-            <a href="https://github.com/appsecandrewlee/Portfolio.work">
+            <a href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project">
               <img src="/css.svg" alt="CSS" className="logo" />
             </a>
 
-            <img src="/python.svg" alt="Python" className="logo" />
-            <a href="https://dev.u23s1012.monash-ie.me/users/login?redirect=%2Fexams">
+            <a href="https://github.com/appsecandrewlee/Monash-Software-Testing-Analysis-Subject">
+              <img src="/python.svg" alt="Python" className="logo" />
+            </a>
+
+            <a href="https://github.com/appsecandrewlee/SQL-database-design">
               <img src="/mysql.svg" alt="MySQL" className="logo" />
             </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
@@ -63,13 +66,9 @@ function SixthSection() {
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
               <img src="/angular.svg" alt="Angular" className="logo" />
             </a>
-
-            <img src="/typescript.svg" alt="Typescript" className="logo" />
-
             <a href="https://github.com/appsecandrewlee/hackathon-ML">
               <img src="/Djangoproject.svg" alt="Django" className="logo" />
             </a>
-            <img src="/git.svg" alt="Git" className="logo" />
 
             <a href="https://github.com/appsecandrewlee/MACathon_2023">
               <img src="/npm.svg" alt="NPM" className="logo" />
@@ -84,11 +83,9 @@ function SixthSection() {
             <a href="https://github.com/appsecandrewlee/MACathon_2023">
               <img src="/firebase.svg" alt="Firebase" className="logo" />
             </a>
-            <img src="/Amazon.svg" alt="Amazon Services" className="logo" />
             <a href="https://github.com/appsecandrewlee/Android-Movie-Management-Application">
               <img src="/json.svg" alt="Json" className="logo" />
             </a>
-
             <a href="https://github.com/appsecandrewlee?tab=repositories">
               <img src="/github.svg" alt="github" className="logo" />
             </a>
@@ -99,9 +96,13 @@ function SixthSection() {
               <img src="/c.svg" alt="C" className="logo" />
             </a>
             <img src="/jquery.svg" alt="Jquery" className="logo" />
-            <img src="/nodejs.svg" alt="nodejs" className="logo" />
+            <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
+              <img src="/nodejs.svg" alt="nodejs" className="logo" />
+            </a>
             <img src="/Linux.png" alt="Linux" className="logo" />
-            <img src="/neo4j.png" alt="neo4j" className="logo" />
+            <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
+              <img src="/neo4j.png" alt="neo4j" className="logo" />
+            </a>
             <a href="https://github.com/appsecandrewlee/SQL-database-design.git">
               {" "}
               <img src="/oracle.svg" alt="oracle" className="logo" />
@@ -171,7 +172,6 @@ function SixthSection() {
         </Col>
         <Col xs={12} md={6}>
           <h1 className="section-title">The software architecture i've used</h1>
-          <img src="/OOP.png" alt="OOP Logo" className="logo" />
 
           <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
             <img
@@ -180,10 +180,22 @@ function SixthSection() {
               className="logo"
             />
           </a>
-          <img src="/SOLID.png" alt="SOLID Logo" className="logo" />
-          <img src="/mvc.png" alt="MVC Logo" className="logo" />
-          <img src="/client-server.png" alt="client-server" className="logo" />
-          <img src="/async.png" alt="async" className="logo" />
+          <a href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game">
+            <img src="/SOLID.png" alt="SOLID Logo" className="logo" />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project">
+            <img src="/mvc.png" alt="MVC Logo" className="logo" />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
+            <img
+              src="/client-server.png"
+              alt="client-server"
+              className="logo"
+            />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
+            <img src="/async.png" alt="async" className="logo" />
+          </a>
 
           {}
         </Col>
