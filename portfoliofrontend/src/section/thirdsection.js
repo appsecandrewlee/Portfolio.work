@@ -5,41 +5,38 @@ function ThirdSection() {
   return (
     <Container style={{ animation: "fadeIn 2s" }}>
       <Row>
-        <Col className="text-left">
+        <Col className="text-center">
           <div
             style={{
               backgroundColor: "#ECECEC",
-              width: "550px",
-              height: "225px",
-              margin: "10px auto",
+              width: "75%",
+              height: "25vh",
+              margin: "2vh auto",
               display: "flex",
               flexDirection: "column",
-              justifyContent: "flex-start",
+              justifyContent: "center",
               alignItems: "center",
-              paddingTop: "10px",
+              paddingTop: "2vh",
             }}
           >
-            {
-              <p
-                style={{
-                  fontSize: "25px",
-                  fontFamily: "Playfair Display",
-                }}
-              >
-                TL:DR? That's okay!
-              </p>
-            }
+            <p
+              style={{
+                fontSize: "2.5vh",
+                fontFamily: "Playfair Display",
+              }}
+            >
+              TL:DR? That's okay!
+            </p>
             <div
               style={{
                 display: "flex",
-                justifyContent: "space-between",
+                justifyContent: "space-around",
                 width: "100%",
-                paddingLeft: "50px",
-                paddingRight: "50px",
                 marginTop: "auto",
-                marginBottom: "20px",
+                marginBottom: "2.5vh",
               }}
             >
+              {" "}
               <div style={{ textAlign: "center" }}>
                 <img
                   src="/computer.png"
@@ -55,7 +52,6 @@ function ThirdSection() {
                   Techie
                 </p>
               </div>
-
               <div style={{ textAlign: "center" }}>
                 <img
                   src="/ai.png"
@@ -72,7 +68,6 @@ function ThirdSection() {
                   ML Enthusiast
                 </p>
               </div>
-
               <div style={{ textAlign: "center" }}>
                 <img
                   src="/running.png"

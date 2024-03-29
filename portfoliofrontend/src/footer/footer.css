@@ -1,13 +1,23 @@
 .footer {
-  position: relative;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 0px;
-  background-color: #f8f9fa;
-  overflow-x: hidden;
-  transition: 0.5s;
-  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   color: black;
-  text-align: center;
+  padding-bottom: 3vh;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo-text {
+  font-family: "Playfair Display";
+}
+
+.linkedin {
+  font-family: "Playfair Display";
+  margin-right: 20px; /* Adjust as needed */
 }

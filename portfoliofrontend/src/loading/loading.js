@@ -17,9 +17,9 @@ function LoadingAnimation() {
       style={{
         fontFamily: "Playfair Display",
         position: "fixed",
-        bottom: "52.5%", // Center vertically
-        left: "47.9%",
-        fontSize: "3vh",
+        bottom: "46.5%", // Center vertically
+        left: "49.9%",
+        fontSize: "6vh",
         transform: "translate(-50%, -50%)",
         zIndex: "10000",
         color: "white", // Set font color to white

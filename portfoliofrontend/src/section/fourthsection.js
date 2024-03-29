@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 function FourthSection() {
   return (
-    <div className="fourth-section">
+    <div>
       <Container style={{ paddingTop: "1rem", animation: "fadeIn 2s" }}>
         <Row>
           <Col className="text-center" id="projects">
@@ -12,12 +12,11 @@ function FourthSection() {
                 fontFamily: "Playfair Display",
                 paddingTop: "5vh",
                 marginLeft: "2vh",
+                fontSize: "6vh",
               }}
             >
               Completed Projects{" "}
-              <span
-                style={{ fontFamily: "Paul Signature", marginLeft: "15px" }}
-              >
+              <span style={{ fontFamily: "Paul Signature", marginLeft: "2vh" }}>
                 <TextAnimation.Slide
                   target="Projects"
                   text={[

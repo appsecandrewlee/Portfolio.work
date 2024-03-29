@@ -14,7 +14,6 @@ function RunEngine() {
     <>
       {LoadingAnimation()}
       {NavigationClickable()}
-      {Footer()}
       {FirstSection()}
       {SecondSection()}
       {ThirdSection()}
@@ -23,6 +22,7 @@ function RunEngine() {
       {FourthSection()}
       {SeventhSection()}
       {CursorTracker()}
+      {Footer()}
     </>
   );
 }

@@ -6,7 +6,7 @@ import "../loading/loadinganimations.css";
 
 function FirstSection() {
   return (
-    <Container className="mt-5" style={{ paddingTop: "8vh" }}>
+    <Container className="mt-5" style={{ paddingTop: "25vh" }}>
       <Row>
         <Col className="text-center">
           <div className="typewriter">
@@ -14,36 +14,36 @@ function FirstSection() {
               style={{
                 fontFamily: "Playfair Display",
                 marginBottom: "1vh",
-                fontSize: "6vh",
+                fontSize: "6.5vh",
               }}
             >
               Hi, I'm Andrew!
             </h1>
           </div>
           <div className="typewriter-delayed">
-            <p style={{ fontSize: "1.9vh" }}>
+            <p style={{ fontSize: "1.8vh" }}>
               Aspiring Full-Stack Software & Security Engineer 🚀
             </p>
           </div>
           <div
             style={{
-              padding: "200px",
+              padding: "20vh",
               display: "inline-block",
             }}
           >
             <a
-              href="#aboutme"
               style={{
                 fontFamily: "Playfair Display",
-                marginBottom: "0.1rem",
+                marginTop: "0.1vh",
                 display: "inline-block",
                 textDecoration: "none",
                 color: "inherit",
+                marginRight: "1.5vh",
               }}
             >
               <Link
                 activeClass="active"
-                to="aboutme"
+                to="about"
                 spy={true}
                 smooth={true}
                 offset={-70}

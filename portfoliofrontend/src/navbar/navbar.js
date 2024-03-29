@@ -63,18 +63,18 @@ function NavigationClickable() {
             color: "black",
             fontFamily: "Playfair Display",
             paddingLeft: "1rem",
+            fontSize: "3vh",
           }}
         >
           Menu
         </Navbar.Brand>
         <Navbar.Brand
-          href="#home"
           className="d-block d-lg-none"
           style={{
             cursor: "pointer",
             color: "black",
             fontFamily: "Playfair Display",
-            fontSize: 20,
+            fontSize: "2.5vh",
             marginLeft: "1.5rem",
           }}
         >
@@ -96,8 +96,8 @@ function NavigationClickable() {
           <Image
             src="/hamburger.png"
             alt="Menu"
-            width="35"
-            height="35"
+            width="45"
+            height="45"
             onClick={toggleSidebar}
           />
         </Navbar.Toggle>
@@ -110,8 +110,8 @@ function NavigationClickable() {
               cursor: "pointer",
               color: "black",
               fontFamily: "Paul Signature",
-              fontSize: 25,
-              marginLeft: "1.5rem",
+              fontSize: "3.5vh",
+              marginLeft: "3.5vh",
             }}
           >
             <Link
@@ -131,7 +131,7 @@ function NavigationClickable() {
             style={{
               cursor: "pointer",
               fontFamily: "Playfair Display",
-              fontSize: 20,
+              fontSize: "3vh",
             }}
           >
             <Link
@@ -199,7 +199,7 @@ function NavigationClickable() {
               </span>
             </Link>{" "}
           </div>
-          <Nav className="flex-column mt-4">
+          <div className="d-flex justify-content-end">
             <Link
               to="aboutme"
               spy={true}
@@ -219,28 +219,28 @@ function NavigationClickable() {
                 <sup>2</sup>About me
               </span>
             </Link>{" "}
-            <NavLink toggleSidebar={toggleSidebar}>
-              <Link
-                to="contact"
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={500}
-                onClick={toggleSidebar}
+          </div>
+          <NavLink toggleSidebar={toggleSidebar}>
+            <Link
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={toggleSidebar}
+            >
+              <span
+                style={{
+                  cursor: "pointer",
+                  fontFamily: "Playfair Display",
+                  color: "#ECECEC",
+                  fontSize: "12.5vh",
+                }}
               >
-                <span
-                  style={{
-                    cursor: "pointer",
-                    fontFamily: "Playfair Display",
-                    color: "#ECECEC",
-                    fontSize: "12.5vh",
-                  }}
-                >
-                  <sup>2</sup>Contact
-                </span>
-              </Link>{" "}
-            </NavLink>
-          </Nav>
+                <sup>3</sup>Contact
+              </span>
+            </Link>{" "}
+          </NavLink>
         </div>
       </div>
     </>

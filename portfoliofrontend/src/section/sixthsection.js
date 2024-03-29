@@ -4,11 +4,14 @@ import "./SixthSection.css";
 
 function SixthSection() {
   return (
-    <Container style={{ paddingTop: "8rem", animation: "fadeIn 2s" }}>
-      <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
+    <Container style={{ paddingTop: "49vh", animation: "fadeIn 2s" }}>
+      <h1
+        className="text-center"
+        style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}
+      >
         Experience
       </h1>
-      <p className="text-center" id="Experience">
+      <p className="text-center" id="Experience" style={{ fontSize: "1.8vh" }}>
         I have been in the Software Development space for over 2 years now.
         <br></br> I'm a passionate individual that is always eager to grow.{" "}
         <br></br>
@@ -21,36 +24,92 @@ function SixthSection() {
         <Col xs={12} md={6}>
           <h1 className="section-title">Technologies I've used</h1>
           <div className="logos-container">
-            <img src="/cassandra.svg" alt="Cassandra" className="logo" />
-            <img src="/php.png" alt="PHP" className="logo" />
-            <img src="/javascript.svg" alt="JS" className="logo" />
-            <img src="/react.svg" alt="React" className="logo" />
-            <img src="/dart.svg" alt="Dart" className="logo" />
-            <img src="/css.svg" alt="CSS" className="logo" />
+            <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
+              <img src="/cassandra.svg" alt="Cassandra" className="logo" />
+            </a>
+            <a href="https://dev.u23s1012.monash-ie.me/">
+              <img src="/php.png" alt="PHP" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
+              <img src="/javascript.svg" alt="JS" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Portfolio.work">
+              <img src="/react.svg" alt="React" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/hackathon-ML">
+              <img src="/dart.svg" alt="Dart" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Portfolio.work">
+              <img src="/css.svg" alt="CSS" className="logo" />
+            </a>
+
             <img src="/python.svg" alt="Python" className="logo" />
-            <img src="/mysql.svg" alt="MySQL" className="logo" />
-            <img src="/html.svg" alt="HTML" className="logo" />
-            <img src="/bootstrap.svg" alt="Bootstrap" className="logo" />
-            <img src="/java.svg" alt="Java" className="logo" />
-            <img src="android-studio.svg" alt="Android" className="logo" />
-            <img src="/angular.svg" alt="Angular" className="logo" />
+            <a href="https://dev.u23s1012.monash-ie.me/users/login?redirect=%2Fexams">
+              <img src="/mysql.svg" alt="MySQL" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
+              <img src="/html.svg" alt="HTML" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Portfolio.work">
+              <img src="/bootstrap.svg" alt="Bootstrap" className="logo" />
+            </a>
+
+            <a href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game">
+              <img src="/java.svg" alt="Java" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Android-Movie-Management-Application">
+              <img src="android-studio.svg" alt="Android" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
+              <img src="/angular.svg" alt="Angular" className="logo" />
+            </a>
+
             <img src="/typescript.svg" alt="Typescript" className="logo" />
-            <img src="/Djangoproject.svg" alt="Django" className="logo" />
+
+            <a href="https://github.com/appsecandrewlee/hackathon-ML">
+              <img src="/Djangoproject.svg" alt="Django" className="logo" />
+            </a>
             <img src="/git.svg" alt="Git" className="logo" />
-            <img src="/npm.svg" alt="NPM" className="logo" />
+
+            <a href="https://github.com/appsecandrewlee/MACathon_2023">
+              <img src="/npm.svg" alt="NPM" className="logo" />
+            </a>
+
             <img src="/bash.svg" alt="Bash" className="logo" />
-            <img src="/mongodb.svg" alt="MongoDB" className="logo" />
-            <img src="/firebase.svg" alt="Firebase" className="logo" />
+
+            <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
+              <img src="/mongodb.svg" alt="MongoDB" className="logo" />
+            </a>
+
+            <a href="https://github.com/appsecandrewlee/MACathon_2023">
+              <img src="/firebase.svg" alt="Firebase" className="logo" />
+            </a>
             <img src="/Amazon.svg" alt="Amazon Services" className="logo" />
-            <img src="/json.svg" alt="Json" className="logo" />
-            <img src="/github.svg" alt="github" className="logo" />
+            <a href="https://github.com/appsecandrewlee/Android-Movie-Management-Application">
+              <img src="/json.svg" alt="Json" className="logo" />
+            </a>
+
+            <a href="https://github.com/appsecandrewlee?tab=repositories">
+              <img src="/github.svg" alt="github" className="logo" />
+            </a>
+
             <img src="/gcloud.svg" alt="Google Cloud" className="logo" />
-            <img src="/c.svg" alt="C" className="logo" />
+
+            <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
+              <img src="/c.svg" alt="C" className="logo" />
+            </a>
             <img src="/jquery.svg" alt="Jquery" className="logo" />
             <img src="/nodejs.svg" alt="nodejs" className="logo" />
             <img src="/Linux.png" alt="Linux" className="logo" />
             <img src="/neo4j.png" alt="neo4j" className="logo" />
-            <img src="/oracle.svg" alt="oracle" className="logo" />
+            <a href="https://github.com/appsecandrewlee/SQL-database-design.git">
+              {" "}
+              <img src="/oracle.svg" alt="oracle" className="logo" />
+            </a>
+            <a href="https://github.com/appsecandrewlee/Software-Testing-Analysis/blob/main/Software-Quality-Report-On-Monash-Supermarket.pdf">
+              {" "}
+              <img src="/CICD.png" alt="Test" className="logo" />
+            </a>
           </div>
         </Col>
 
@@ -80,26 +139,47 @@ function SixthSection() {
           <h1 className="section-title" style={{ marginTop: "3vh" }}>
             Club Societies
           </h1>
-          <img src="/MAC.png" alt="MAC Logo" className="logo" />
-          <img src="/cybersec.png" alt="Cybersecurity Logo" className="logo" />
-          <img src="/wired.jpeg" alt="Wired Logo" className="logo" />
+
+          <a href="https://www.monashcoding.com/">
+            <img src="/MAC.png" alt="MAC Logo" className="logo" />
+          </a>
+
+          <a href="https://monsec.io/">
+            <img
+              src="/cybersec.png"
+              alt="Cybersecurity Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://wired.org.au/">
+            <img src="/wired.jpeg" alt="Wired Logo" className="logo" />
+          </a>
+
           <h1 className="section-title" style={{ marginTop: "3vh" }}>
             Hackathons I attended
           </h1>
-          <img src="/macathon.png" alt="Macathon Logo" className="logo" />
-          <img src="/unihack2023.png" alt="Unihack Logo" className="logo" />
-          <img src="/monsec.jpeg" alt="CTF Logo" className="logo" />
+          <a href="https://devpost.com/software/language-translator-app">
+            <img src="/macathon.png" alt="Macathon Logo" className="logo" />
+          </a>
+          <a href="https://devpost.com/software/journal-ko8tlj">
+            <img src="/unihack2023.png" alt="Unihack Logo" className="logo" />
+          </a>
 
-          {}
+          <a href="https://monsec.io/competitions/#monsec-beginner-ctf">
+            <img src="/monsec.jpeg" alt="CTF Logo" className="logo" />
+          </a>
         </Col>
         <Col xs={12} md={6}>
           <h1 className="section-title">The software architecture i've used</h1>
           <img src="/OOP.png" alt="OOP Logo" className="logo" />
-          <img
-            src="/refactoring.png"
-            alt="Refactoring Guru Logo"
-            className="logo"
-          />
+
+          <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
+            <img
+              src="/refactoring.png"
+              alt="Refactoring Guru Logo"
+              className="logo"
+            />
+          </a>
           <img src="/SOLID.png" alt="SOLID Logo" className="logo" />
           <img src="/mvc.png" alt="MVC Logo" className="logo" />
           <img src="/client-server.png" alt="client-server" className="logo" />
@@ -111,12 +191,16 @@ function SixthSection() {
         <Col xs={12} md={6}></Col>
       </Row>
       <h1
-        style={{ fontFamily: "Playfair Display", marginTop: "9vh" }}
+        style={{
+          fontFamily: "Playfair Display",
+          marginTop: "15vh",
+          fontSize: "6vh",
+        }}
         className="text-center"
       >
         Passion
       </h1>
-      <p style={{}} className="text-center">
+      <p style={{ fontSize: "1.8vh" }} className="text-center">
         My reading and some projects <br></br>that I am currently doing for fun
       </p>
       <br></br>
