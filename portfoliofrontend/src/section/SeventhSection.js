@@ -2,8 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
 const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/b3e94e70-eb40-11ee-b428-632ee80a2804"; // TODO - update to the correct endpoint
-
+  "https://public.herotofu.com/v1/b3e94e70-eb40-11ee-b428-632ee80a2804";
 function SeventhSection() {
   const [submitted, setSubmitted] = useState(false);
   const [time, setTime] = useState(new Date());
@@ -61,7 +60,7 @@ function SeventhSection() {
   }
 
   return (
-    <Container style={{ paddingTop: "1rem", animation: "fadeIn 2s" }}>
+    <Container style={{ paddingTop: "200vh", animation: "fadeIn 2s" }}>
       <Row>
         <Col className="text-left">
           <h1 style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}>
@@ -94,31 +93,75 @@ function SeventhSection() {
         >
           <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
             <Row>
-              <Col xs={4}>
+              <Col xs={12}>
                 <input
                   type="text"
                   placeholder="Your name"
                   name="name"
                   required
+                  style={{
+                    fontFamily: "Playfair Display",
+                    color: "black",
+                    border: "none",
+                    borderBottom: "1px solid black",
+                    backgroundColor: "transparent",
+                    width: "100%",
+                    boxSizing: "border-box",
+                    outline: "none",
+                  }}
                 />
               </Col>
-              <Col xs={6}>
-                <input type="email" placeholder="Email" name="email" required />
+              <Col xs={12}>
+                <input
+                  type="email"
+                  placeholder="Email"
+                  name="email"
+                  required
+                  style={{
+                    fontFamily: "Playfair Display",
+                    color: "black",
+                    border: "none",
+                    borderBottom: "1px solid black",
+                    backgroundColor: "transparent",
+                    width: "100%",
+                    boxSizing: "border-box",
+                    outline: "none",
+                  }}
+                />
               </Col>
-            </Row>
-            <Row>
-              <Col>
+              <Col xs={12}>
                 <textarea
-                  style={{ fontFamily: "playfair Display" }}
                   placeholder="Message"
                   name="message"
                   required
+                  style={{
+                    fontFamily: "Playfair Display",
+                    color: "black",
+                    border: "none",
+                    borderBottom: "1px solid black",
+                    backgroundColor: "transparent",
+                    width: "100%",
+                    boxSizing: "border-box",
+                    outline: "none",
+                  }}
                 />
               </Col>
             </Row>
             <Row>
               <Col>
-                <button type="submit">Submit</button>
+                <button
+                  type="submit"
+                  style={{
+                    fontFamily: "Playfair Display",
+                    color: "black",
+                    border: "none",
+                    backgroundColor: "transparent",
+                    cursor: "pointer",
+                    outline: "none",
+                  }}
+                >
+                  Submit
+                </button>
               </Col>
             </Row>
           </form>

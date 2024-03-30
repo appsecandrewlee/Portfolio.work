@@ -16,9 +16,6 @@ function SixthSection() {
         <br></br> I'm a passionate individual that is always eager to grow.{" "}
         <br></br>
         <br></br>
-        <p style={{ fontFamily: "Playfair Display", fontSize: "2.2vh" }}>
-          Summary:
-        </p>
       </p>
       <Row className="text-center">
         <Col xs={12} md={6}>
