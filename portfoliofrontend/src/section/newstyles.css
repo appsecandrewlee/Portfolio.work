@@ -180,3 +180,28 @@
 .project-image-wrapper:hover .view-text {
   opacity: 1;
 }
+
+.slide-up {
+  position: absolute; /* Changed position from relative to absolute */
+  bottom: -100%; /* Initially hides the text above its container */
+  left: 0;
+  transition: all 0.3s ease-out;
+  background: #428bca;
+  width: 100%;
+  margin: 0; /* Added to reset default margins */
+}
+
+@keyframes fall-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.fall-down-animation {
+  animation: fall-down 1s ease-out forwards;
+}

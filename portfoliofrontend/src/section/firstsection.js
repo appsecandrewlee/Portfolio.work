@@ -1,8 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import "./section.css";
 import { Link } from "react-scroll";
-import "../loading/loadinganimations.css";
+
+import "./section.css"; // Import CSS file for styles
+import "../loading/loadinganimations.css"; // Import CSS file for loading animations
 
 function FirstSection() {
   return (
@@ -14,27 +15,24 @@ function FirstSection() {
               style={{
                 fontFamily: "Playfair Display",
                 marginBottom: "1vh",
-                fontSize: "8vh",
+                fontSize: "max(6vh, 4vw)",
               }}
             >
               Hi, I'm Andrew!
             </h1>
           </div>
           <div className="typewriter-delayed">
-            <p style={{ fontSize: "2.5vh" }}>
+            <p style={{ fontSize: "max(2vh, 1.5vw)" }}>
+              {" "}
               Aspiring Full-Stack Software & Security Engineer 🚀
             </p>
           </div>
-          <div
-            style={{
-              padding: "20vh",
-              display: "inline-block",
-            }}
-          >
+          <div style={{ paddingTop: "22vh", display: "inline-block" }}>
+            {" "}
             <a
               style={{
                 fontFamily: "Playfair Display",
-                marginTop: "0.1vh",
+                marginTop: "0.5vh",
                 display: "inline-block",
                 textDecoration: "none",
                 color: "inherit",
@@ -54,6 +52,7 @@ function FirstSection() {
                   alt="Down arrow"
                   style={{
                     animation: "slideDown 1.5s infinite",
+                    marginBottom: "22vh",
                   }}
                 />
               </Link>

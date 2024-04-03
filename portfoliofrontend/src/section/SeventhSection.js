@@ -1,21 +1,41 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./newstyles.css";
 
 function SeventhSection() {
   const [time, setTime] = useState(new Date());
+  const [isVisible, setIsVisible] = useState(false);
+  const sectionRef = useRef(null);
 
   useEffect(() => {
-    const timer = setInterval(() => {
-      setTime(new Date());
-    }, 1000);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsVisible(true);
+          }
+        });
+      },
+      { threshold: 0.2 }, // Trigger animation when 20% of the section is visible
+    );
 
+    if (sectionRef.current) {
+      observer.observe(sectionRef.current);
+    }
+
+    // Cleanup
     return () => {
-      clearInterval(timer);
+      if (sectionRef.current) {
+        observer.unobserve(sectionRef.current);
+      }
     };
   }, []);
 
+  const updateTime = () => {
+    setTime(new Date());
+  };
+
   return (
-    <div style={{ paddingTop: "6vh" }}>
+    <div ref={sectionRef} style={{ paddingTop: "6vh" }}>
       <div
         style={{
           animation: "fadeIn 2s",
@@ -23,14 +43,14 @@ function SeventhSection() {
           justifyContent: "center",
           alignItems: "center",
           textAlign: "center",
-          flexDirection: "column", // Adjust to column layout
+          flexDirection: "column",
           padding: "2vh",
         }}
       >
         <img
           src="send.png"
           alt="Send"
-          className="text-center fall-down-animation"
+          className={`text-center ${isVisible ? "fall-down-animation" : ""}`}
           style={{
             fontFamily: "Playfair Display",
             fontSize: "8vh",
@@ -45,15 +65,13 @@ function SeventhSection() {
             fontSize: "7vh",
           }}
         >
-          Get in touch
+          Don't be shy, let's get in touch!
         </h1>
         <p id="contact" style={{ fontFamily: "Playfair Display" }}>
-          Let me know if you want to chat with me or discuss opportunities!
+          Let me know if you want to chat with me or discuss opportunities, I'm
+          always happy to grow with likeminded people!
           <br />
-          I'm always happy to grow with likeminded people!
-          <br />
-          I'm based in Melbourne, Australia <br />
-          MEL-
+          I'm based in Melbourne, Australia. Locale: MEL-
           {time.toLocaleTimeString([], {
             hour: "2-digit",
             minute: "2-digit",
@@ -65,6 +83,9 @@ function SeventhSection() {
             month: "long",
             day: "numeric",
           })}
+          <br></br>
+          Click on the button Email me or you can fill out this form below to
+          send me a message!
         </p>
         <a
           href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=appsec.andrewlee@gmail.com"
@@ -87,6 +108,8 @@ function SeventhSection() {
         >
           Email me!
         </a>
+
+        <div>Form</div>
       </div>
     </div>
   );
