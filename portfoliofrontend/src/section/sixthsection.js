@@ -4,7 +4,7 @@ import "./SixthSection.css";
 
 function SixthSection() {
   return (
-    <Container style={{ paddingTop: "49vh", animation: "fadeIn 2s" }}>
+    <Container style={{ paddingTop: "12.5vh", animation: "fadeIn 2s" }}>
       <h1
         className="text-center"
         style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}
@@ -186,10 +186,6 @@ function SixthSection() {
               className="logo"
             />
           </a>
-          <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
-            <img src="/async.png" alt="async" className="logo" />
-          </a>
-
           {}
         </Col>
 

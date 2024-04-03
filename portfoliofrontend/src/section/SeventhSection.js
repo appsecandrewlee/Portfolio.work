@@ -1,10 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import "./newstyles.css";
 
-const FORM_ENDPOINT =
-  "https://public.herotofu.com/v1/b3e94e70-eb40-11ee-b428-632ee80a2804";
 function SeventhSection() {
-  const [submitted, setSubmitted] = useState(false);
   const [time, setTime] = useState(new Date());
 
   useEffect(() => {
@@ -17,157 +14,81 @@ function SeventhSection() {
     };
   }, []);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    const inputs = e.target.elements;
-    const data = {};
-
-    for (let i = 0; i < inputs.length; i++) {
-      if (inputs[i].name) {
-        data[inputs[i].name] = inputs[i].value;
-      }
-    }
-
-    fetch(FORM_ENDPOINT, {
-      method: "POST",
-      headers: {
-        Accept: "application/json",
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(data),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Form response was not ok");
-        }
-
-        setSubmitted(true);
-      })
-      .catch((err) => {
-        // Submit the form manually
-        e.target.submit();
-      });
-  };
-
-  if (submitted) {
-    return (
-      <>
-        <div className="text-2xl">Thank you!</div>
-        <div className="text-md">We'll be in touch soon.</div>
-      </>
-    );
-  }
-
   return (
-    <Container style={{ paddingTop: "200vh", animation: "fadeIn 2s" }}>
-      <Row>
-        <Col className="text-left">
-          <h1 style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}>
-            Get in touch
-          </h1>
-          <p id="contact">
-            let me know if you want to chat with me or discuss opportunities!
-            <br></br> I'm always happy to grow with likeminded people!
-            <br></br>
-            I'm based in Melbourne, Australia <br></br>
-            MEL-
-            {time.toLocaleTimeString([], {
-              hour: "2-digit",
-              minute: "2-digit",
-            })}
-            -
-            {time.toLocaleDateString("en-US", {
-              weekday: "long",
-              year: "numeric",
-              month: "long",
-              day: "numeric",
-            })}
-            <br></br>
-            <br></br>
-          </p>
-        </Col>
-        <Col
-          className="text-right"
-          style={{ marginTop: "5.5vh", marginLeft: "20vh" }}
+    <div style={{ paddingTop: "6vh" }}>
+      <div
+        style={{
+          animation: "fadeIn 2s",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          flexDirection: "column", // Adjust to column layout
+          padding: "2vh",
+        }}
+      >
+        <img
+          src="send.png"
+          alt="Send"
+          className="text-center fall-down-animation"
+          style={{
+            fontFamily: "Playfair Display",
+            fontSize: "8vh",
+            height: "8vh",
+            width: "8vh",
+          }}
+        />
+
+        <h1
+          style={{
+            fontFamily: "Playfair Display",
+            fontSize: "7vh",
+          }}
         >
-          <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
-            <Row>
-              <Col xs={12}>
-                <input
-                  type="text"
-                  placeholder="Your name"
-                  name="name"
-                  required
-                  style={{
-                    fontFamily: "Playfair Display",
-                    color: "black",
-                    border: "none",
-                    borderBottom: "1px solid black",
-                    backgroundColor: "transparent",
-                    width: "100%",
-                    boxSizing: "border-box",
-                    outline: "none",
-                  }}
-                />
-              </Col>
-              <Col xs={12}>
-                <input
-                  type="email"
-                  placeholder="Email"
-                  name="email"
-                  required
-                  style={{
-                    fontFamily: "Playfair Display",
-                    color: "black",
-                    border: "none",
-                    borderBottom: "1px solid black",
-                    backgroundColor: "transparent",
-                    width: "100%",
-                    boxSizing: "border-box",
-                    outline: "none",
-                  }}
-                />
-              </Col>
-              <Col xs={12}>
-                <textarea
-                  placeholder="Message"
-                  name="message"
-                  required
-                  style={{
-                    fontFamily: "Playfair Display",
-                    color: "black",
-                    border: "none",
-                    borderBottom: "1px solid black",
-                    backgroundColor: "transparent",
-                    width: "100%",
-                    boxSizing: "border-box",
-                    outline: "none",
-                  }}
-                />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <button
-                  type="submit"
-                  style={{
-                    fontFamily: "Playfair Display",
-                    color: "black",
-                    border: "none",
-                    backgroundColor: "transparent",
-                    cursor: "pointer",
-                    outline: "none",
-                  }}
-                >
-                  Submit
-                </button>
-              </Col>
-            </Row>
-          </form>
-        </Col>
-      </Row>
-    </Container>
+          Get in touch
+        </h1>
+        <p id="contact" style={{ fontFamily: "Playfair Display" }}>
+          Let me know if you want to chat with me or discuss opportunities!
+          <br />
+          I'm always happy to grow with likeminded people!
+          <br />
+          I'm based in Melbourne, Australia <br />
+          MEL-
+          {time.toLocaleTimeString([], {
+            hour: "2-digit",
+            minute: "2-digit",
+          })}
+          -
+          {time.toLocaleDateString("en-US", {
+            weekday: "long",
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })}
+        </p>
+        <a
+          href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&to=appsec.andrewlee@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            textDecoration: "none",
+            color: "black",
+            border: "1px solid black",
+            padding: "10px",
+            fontFamily: "Playfair Display",
+            transition: "color 0.3s",
+          }}
+          onMouseOver={(e) => {
+            e.target.style.color = "black";
+          }}
+          onMouseOut={(e) => {
+            e.target.style.color = "inherit";
+          }}
+        >
+          Email me!
+        </a>
+      </div>
+    </div>
   );
 }
 

@@ -14,14 +14,14 @@ function FirstSection() {
               style={{
                 fontFamily: "Playfair Display",
                 marginBottom: "1vh",
-                fontSize: "6.5vh",
+                fontSize: "8vh",
               }}
             >
               Hi, I'm Andrew!
             </h1>
           </div>
           <div className="typewriter-delayed">
-            <p style={{ fontSize: "1.8vh" }}>
+            <p style={{ fontSize: "2.5vh" }}>
               Aspiring Full-Stack Software & Security Engineer 🚀
             </p>
           </div>

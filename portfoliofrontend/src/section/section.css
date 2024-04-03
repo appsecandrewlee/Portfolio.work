@@ -113,3 +113,26 @@ body,
 html {
   overflow-x: hidden;
 }
+
+.gray-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%; /* Adjust width as needed */
+  height: 70vh;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+}
+
+@media (max-width: 414px) {
+  /* iPhone XR width */
+  .typewriter h1 {
+    font-size: 6vh; /* Adjust the font size for the heading */
+  }
+
+  .typewriter-delayed p {
+    font-size: 2vh; /* Adjust the font size for the paragraph */
+  }
+}

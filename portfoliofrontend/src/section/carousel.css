@@ -10,10 +10,10 @@
 
 .card {
   flex: 0 0 auto;
-  width: 30vh;
-  height: 25vh;
-  margin-right: 10px;
-  border-radius: 15px;
+  width: 50vh;
+  height: 42vh;
+  margin-right: 6vh;
+  border-radius: 15vh;
 }
 
 .card-image {

@@ -1,0 +1,182 @@
+.gray-box {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 30vh;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 40px;
+}
+
+/* Default styles */
+.text-left {
+  flex: 1;
+  margin-right: 20vh;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 768px) {
+  .text-left {
+    margin-right: 0; /* Override margin for smaller screens */
+  }
+  .get-in-touch {
+    font-size: 4vh;
+  }
+  .contact-info {
+    font-size: 1.4vh;
+    line-height: 2.8vh;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-input,
+.form-textarea {
+  font-family: "Playfair Display";
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: transparent;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+.submit-button {
+  font-family: "Playfair Display";
+  color: black;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  .form-input,
+  .form-textarea,
+  .submit-button {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .form-input,
+  .form-textarea,
+  .submit-button {
+    font-size: 0.7rem;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.submit-button {
+  align-self: flex-start; /* Align the button to the start of the flex container */
+  margin-bottom: 1rem; /* Adjust the margin as needed */
+  border: 1px solid rgba(0, 0, 0, 0.2); /* Add border with reduced visibility */
+  border-radius: 5px; /* Adjust border radius for rounded corners */
+  background-color: transparent; /* Set background color */
+  font-family: "Playfair Display"; /* Set font family */
+  font-size: 1rem; /* Set font size */
+  cursor: pointer; /* Change cursor on hover */
+  transition: background-color 0.3s ease; /* Add transition effect */
+  margin-bottom: "4vh";
+}
+
+.submit-button:hover {
+  background-color: black; /* Change background color on hover */
+  color: white; /* Change text color on hover */
+}
+
+.repeating-text {
+  background: linear-gradient(to right, transparent 50%, black 50%) repeat-x;
+  background-size: auto 100%;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.extended-text {
+  width: 100vw; /* Adjust this value to your preference */
+  white-space: nowrap;
+}
+
+.gray-background {
+  background-color: #f4f4f4; /* Light gray background color */
+}
+
+.lift-up-animation {
+  transition: transform 0.5s ease-in-out;
+}
+
+.lift-up-animation:hover {
+  transform: translate(
+    -10px,
+    -10px
+  ); /* Adjust the horizontal and vertical lift distance as needed */
+}
+
+.project-image {
+  transition: filter 0.2s ease-out; /* Smooth transition for the filter property */
+}
+
+.project-image:hover {
+  filter: brightness(30%); /* Reduce brightness to 70% on hover */
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 8vh;
+    padding: 0.5ch;
+  }
+}
+
+.project-image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 40vh;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.magnifier {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  width: 6%;
+  height: 9%;
+  filter: invert(1);
+}
+
+.project-image-wrapper:hover .magnifier {
+  opacity: 1;
+}
+
+.view-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.project-image-wrapper:hover .view-text {
+  opacity: 1;
+}
