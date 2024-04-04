@@ -264,7 +264,7 @@ function FourthSection() {
               />
             </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose1}>
                 Close
               </Button>
             </Modal.Footer>
@@ -310,7 +310,7 @@ function FourthSection() {
               <img className="project-image" src="Systems.png" alt="Image 3" />
             </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose2}>
                 Close
               </Button>
             </Modal.Footer>

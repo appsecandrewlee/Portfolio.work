@@ -9,6 +9,7 @@ import SixthSection from "../section/sixthsection";
 import SeventhSection from "../section/SeventhSection";
 import CursorTracker from "../cursor/cursortracking";
 import LoadingAnimation from "../loading/loading";
+import WhatIDoSection from "../section/whatidosection";
 function RunEngine() {
   return (
     <>
@@ -17,9 +18,10 @@ function RunEngine() {
       {FirstSection()}
       {SecondSection()}
       {ThirdSection()}
+      {WhatIDoSection()}
       {SixthSection()}
-      {FifthSection()}
       {FourthSection()}
+      {FifthSection()}
       {SeventhSection()}
       {CursorTracker()}
       {Footer()}

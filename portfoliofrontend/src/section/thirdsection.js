@@ -40,7 +40,7 @@ function ThirdSection() {
               <div style={{ textAlign: "center" }}>
                 <img
                   src="/computer.png"
-                  alt="Computer"
+                  alt="computer"
                   style={{ width: "58px", height: "50px" }}
                 />
                 <p
