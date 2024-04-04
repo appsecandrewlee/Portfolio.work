@@ -203,9 +203,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                SOLID,DRY and KISS programming principles
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -215,20 +213,6 @@ function FourthSection() {
                 alt="Image 1"
               />
             </Modal.Body>
-            <Modal.Body>
-              I've extensively applied object-oriented programming (OOP) and
-              design principles, particularly focusing on the DRY (Don't Repeat
-              Yourself) concept to ensure code efficiency. Embracing the KISS
-              (Keep It Simple, Stupid) philosophy, I've streamlined complexities
-              to maintain a straightforward and easily maintainable codebase. By
-              proficiently utilizing robust data structures like hashmaps, I've
-              demonstrated my adeptness in managing and optimizing data storage
-              efficiently. Moreover, my expertise in designing UML diagrams has
-              allowed me to visualize and architect complex systems effectively.
-              Implementing SOLID principles underscores my dedication to
-              crafting modular, extensible, and robust code.
-            </Modal.Body>
-
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
@@ -269,9 +253,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Software Engineering, Design Patterns & OOP
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -280,19 +262,6 @@ function FourthSection() {
                 src="Nine-Men-Morris.png"
                 alt="Image 2"
               />
-            </Modal.Body>
-            <Modal.Body>
-              In this Nine Men's Morris project, I have implemented the observer
-              pattern to facilitate dynamic updates, ensuring seamless
-              communication between different components of the game. Adhering
-              to SOLID principles, I've crafted a robust architecture that
-              promotes scalability and maintainability, laying a strong
-              foundation for future enhancements. By applying the DRY (Don't
-              Repeat Yourself) concept, I've fostered efficient code reuse,
-              minimizing redundancy and maximizing code efficiency. This
-              software engineering architecture project exemplifies my
-              dedication to implementing best practices in software design and
-              development
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -334,27 +303,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Priority Queues, File Commands and Multithreading
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
               <img className="project-image" src="Systems.png" alt="Image 3" />
-            </Modal.Body>
-            <Modal.Body>
-              In the operating systems project, I demonstrated my expertise by
-              implementing various essential concepts, particularly focusing on
-              system scheduling algorithms and process management. Leveraging my
-              proficiency in C programming, I coded a robust First Come First
-              Serve (FCFS) algorithm and a Round Robin algorithm, ensuring fair
-              process execution order and efficient resource utilization.
-              Additionally, I expanded my skills by incorporating file commands,
-              further enhancing the functionality and versatility of the system.
-              Going beyond basic implementations, I delved into advanced topics
-              such as server-to-client communication using sockets and
-              multithreading, showcasing my ability to tackle complex challenges
-              in system development.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -397,25 +350,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>PHP JS & SQL project</Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
               <img className="project-image" src="HoHeal.png" alt="Image 4" />
-            </Modal.Body>
-            <Modal.Body>
-              I've refined my skills in PHP, JavaScript, HTML, and MySQL,
-              culminating in the creation of a comprehensive CMS for "Holistic
-              Healing." This endeavor enabled me to translate technical
-              proficiency into a tangible solution, fostering efficient content
-              management and user engagement. Through iterative development and
-              meticulous planning, I navigated the complexities inherent in web
-              development with humility and dedication. Effective project
-              management, coupled with clear communication and adept
-              problem-solving, underscored my commitment to delivering value to
-              both clients and teammates who i work with. As I reflect on this
-              journey, I am grateful for the opportunity to contribute
-              meaningfully to the project.
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -467,9 +406,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Conceptual Design & Real-time implementation of Database
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -478,20 +415,6 @@ function FourthSection() {
                 src="SQL-Database.png"
                 alt="Image 5"
               />
-            </Modal.Body>
-            <Modal.Body>
-              In this project focused on database management, I designed a
-              cruise database tailored to handle various queries and operations
-              efficiently. Leveraging my expertise in SQL and Oracle, I
-              meticulously crafted the conceptual design, mapping out the
-              structure and relationships within the database. Transitioning
-              from conceptualization to implementation, I brought the database
-              to life, ensuring seamless integration with existing systems and
-              optimal performance. With a keen eye for detail, I executed
-              complex queries, fine-tuning them to meet the diverse needs of the
-              project. Through this hands-on experience, I gained practical
-              insights into database administration tasks, from data retrieval
-              to modification and optimization.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -525,7 +448,7 @@ function FourthSection() {
             }}
           >
             {" "}
-            Shortest Path Database Design (Data Science)
+            Neo4j Database Graph Transversal{" "}
           </p>
           <Modal
             show={showModal5}
@@ -534,9 +457,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Neo4j and Cypher Design + implementation
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -545,23 +466,6 @@ function FourthSection() {
                 src="Advanced-Database-Design.png"
                 alt="Image 6"
               />
-            </Modal.Body>
-            <Modal.Body>
-              {" "}
-              showcased my proficiency in designing multi-storage, multi-purpose
-              databases for back-end systems, utilizing cutting-edge
-              technologies to achieve optimal performance and functionality.
-              Leveraging my expertise, I designed and implemented multiple
-              databases, each tailored to serve specific purposes and
-              requirements, effectively organizing and managing diverse sets of
-              data. Additionally, I employed advanced techniques such as
-              utilizing Neo4j and Dijkstra's algorithm to efficiently find the
-              shortest path within the graph database structure, demonstrating
-              my ability to leverage specialized tools for complex tasks.
-              Moreover, I excelled in query optimization, adeptly crafting
-              queries to retrieve data and establish relationships within the
-              graph database, ensuring streamlined access and manipulation of
-              information.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -613,29 +517,11 @@ function FourthSection() {
               className="fade"
             >
               <Modal.Header closeButton>
-                <Modal.Title>
-                  Stack Overflow attack Netcat + C Programming
-                </Modal.Title>
+                <Modal.Title>Designborne</Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 {" "}
                 <img className="project-image" src="Memory.png" alt="Image 7" />
-              </Modal.Body>
-              <Modal.Body>
-                In this project, I implemented stack overflow and SQL injection
-                techniques as part of an exploration into software security.
-                Leveraging these methodologies, I delved deep into the
-                vulnerabilities within software systems, analyzing potential
-                points of exploitation and fortifying defenses against malicious
-                attacks. Through hands-on experimentation, I demonstrated a
-                comprehensive understanding of the mechanisms underlying stack
-                overflow and SQL injection, identifying weaknesses and devising
-                strategies to mitigate their impact. Additionally, I explored
-                advanced concepts such as NOP-sled exploitation, leveraging
-                techniques to bypass security measures and gain unauthorized
-                access. Using netcat, I executed SQL commands to retrieve
-                sensitive user information, illustrating the real-world
-                implications of such vulnerabilities.{" "}
               </Modal.Body>
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
@@ -678,23 +564,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Telnet Vulnerability Exploitation + DNS poison
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
               <img className="project-image" src="Networks.png" alt="Image 8" />
-            </Modal.Body>
-            <Modal.Body>
-              In this project, I conducted a DNS poisoning attack aimed at
-              manipulating DNS resolution processes to redirect traffic to
-              malicious destinations. By exploiting vulnerabilities in DNS
-              protocols, I successfully intercepted and modified DNS query
-              responses, directing users to unauthorized websites. Additionally,
-              I executed a Man-in-the-Middle (MITM) attack using Telnet,
-              intercepting communication between network nodes and dropping
-              connections to gain unauthorized access.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -737,22 +611,11 @@ function FourthSection() {
           className="fade"
         >
           <Modal.Header closeButton>
-            <Modal.Title>MEAN stack web development (POMS)</Modal.Title>
+            <Modal.Title>Designborne</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             {" "}
             <img className="project-image" src="POMS.png" alt="Image 9" />
-          </Modal.Body>
-          <Modal.Body>
-            In this project, I developed a Parcel Management Application
-            utilizing MongoDB for backend data storage and TypeScript for
-            frontend development. Leveraging CRUD operations, users can
-            seamlessly add and delete parcels, offering a convenient solution
-            for parcel management tasks. The application's architecture
-            prioritizes efficiency and scalability, ensuring smooth data
-            handling and retrieval processes. Additionally, Bootstrap.css was
-            employed for styling, enhancing the user interface with modern and
-            responsive design elements.{" "}
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
@@ -804,24 +667,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>MACathon Competition (Hackathon)</Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
               <img className="project-image" src="App1.png" alt="Image 10" />
-            </Modal.Body>
-            <Modal.Body>
-              In this project, I participated the development of an innovative
-              language learning application, leveraging technologies to bridge
-              communication gaps seamlessly. By integrating OpenCV, I
-              facilitated image recognition capabilities, allowing users to
-              translate text simply by capturing an image. Utilizing Python's
-              FASTAPI framework, My team created a backend system to process
-              image data and interact with external APIs for language
-              translation. Collaborating closely with a dynamic team, I
-              contributed to the frontend development using React JavaScript,
-              crafting an intuitive user interface for seamless interaction. we
-              ensured optimal performance and user experience across platforms.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -864,20 +714,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Android Application Development</Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
               <img className="project-image" src="Android.png" alt="Image 11" />
-            </Modal.Body>
-            <Modal.Body>
-              This project, undertaken as part of the Monash Application
-              Development Elective, involved the creation of a comprehensive
-              Android mobile application. Leveraging RoomDB, a local database
-              solution, and Firebase backend services, we developed a robust and
-              scalable platform for data storage and management. The application
-              seamlessly integrates with the Country API, utilizing JSON data
-              for dynamic content retrieval and display.
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -920,9 +761,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Monash Paramedicine Platform (Officially in use by Monash)
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -931,17 +770,6 @@ function FourthSection() {
                 src="Monash_Prod.png"
                 alt="Image 12"
               />
-            </Modal.Body>
-            <Modal.Body>
-              In leading the development of the Monash Paramedicine eLearning
-              system, I participated in the full spectrum of development, from
-              frontend to backend implementation, ensuring a cohesive and robust
-              platform. With a focus on security, I designed and integrated
-              multifactor authentication components, including email
-              verification measures, to enhance the system's resilience against
-              unauthorized access. Through thorough pen-testing and threat
-              modeling, vulnerabilities such as HTTP and SQL injection were
-              identified and addressed, resulting in 85% security coverage.
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -994,10 +822,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>
-                Created Portfolio Website using react Javascript, CSS animations
-                and HTML
-              </Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -1006,13 +831,6 @@ function FourthSection() {
                 src="Portfolio.png"
                 alt="Image 13"
               />
-            </Modal.Body>
-            <Modal.Body>
-              This project is simply a collection of my work as an aspiring
-              software engineer. It's a portfolio website built using React and
-              Bootstrap, showcasing the projects I've worked on during my two
-              years in the field. I've utilized JavaScript for functionality,
-              CSS for animations, and HTML for structure.{" "}
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
