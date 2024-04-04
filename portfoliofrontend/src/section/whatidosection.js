@@ -12,6 +12,14 @@ function WhatIDoSection() {
 
   return (
     <div style={{ paddingTop: "13vh" }}>
+      <div
+        className="text-center"
+        style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}
+      >
+        Professional Values
+      </div>
+      <p className="text-center" style={{ fontSize: "2.3vh" }}></p>
+
       <Container
         style={{
           paddingTop: "4vh",
@@ -26,7 +34,8 @@ function WhatIDoSection() {
               className="lift-up-animation"
               style={{
                 fontFamily: "Paul Signature",
-                fontSize: "clamp(6vh, 7vw, 10vh)", // Adjust font size dynamically based on viewport width
+                fontSize: "clamp(6vh, 7vw, 10vh)",
+                cursor: "pointer", // Adjust font size dynamically based on viewport width
               }}
               onMouseEnter={() => setShowImage("/Desktop.jpg")}
               onMouseMove={handleMouseMove}
@@ -63,6 +72,7 @@ function WhatIDoSection() {
                 fontFamily: "Paul Signature",
                 fontSize: "clamp(6vh, 7vw, 10vh)",
                 marginTop: "4vh",
+                cursor: "pointer",
               }}
               onMouseEnter={() => setShowImage("/servers.jpg")}
               onMouseMove={handleMouseMove}
@@ -92,6 +102,7 @@ function WhatIDoSection() {
                 fontFamily: "Paul Signature",
                 fontSize: "clamp(6vh, 7vw, 10vh)",
                 marginTop: "4vh",
+                cursor: "pointer",
               }}
               onMouseEnter={() => setShowImage("/curious.jpg")}
               onMouseMove={handleMouseMove}
