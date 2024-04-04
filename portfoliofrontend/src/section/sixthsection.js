@@ -18,9 +18,20 @@ function SixthSection() {
         <br></br>
       </p>
       <Row className="text-center">
-        <Col xs={12} md={6}>
-          <h1 className="section-title">Technologies I've used</h1>
-          <div className="logos-container">
+        <div
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "left",
+          }}
+        >
+          <h1
+            className="section-title"
+            style={{ fontSize: "2.5vh", marginBottom: "2vh" }}
+          >
+            Technologies I've used
+          </h1>
+          <div style={{ marginRight: "0vh" }}>
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
               <img src="/cassandra.svg" alt="Cassandra" className="logo" />
             </a>
@@ -88,11 +99,16 @@ function SixthSection() {
             <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
               <img src="/c.svg" alt="C" className="logo" />
             </a>
-            <img src="/jquery.svg" alt="Jquery" className="logo" />
+
+            <a href="https://dev.u23s1012.monash-ie.me/">
+              <img src="/jquery.svg" alt="Jquery" className="logo" />
+            </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
               <img src="/nodejs.svg" alt="nodejs" className="logo" />
             </a>
-            <img src="/Linux.png" alt="Linux" className="logo" />
+            <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
+              <img src="/Linux.png" alt="Linux" className="logo" />
+            </a>
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
               <img src="/neo4j.png" alt="neo4j" className="logo" />
             </a>
@@ -105,10 +121,12 @@ function SixthSection() {
               <img src="/CICD.png" alt="Test" className="logo" />
             </a>
           </div>
-        </Col>
+        </div>
 
         <Col xs={12} md={6}>
-          <h1 className="section-title">Where I've worked</h1>
+          <h1 className="section-title2" style={{ fontSize: "2.5vh" }}>
+            Where I've worked
+          </h1>
           <div className="monash-logo-container">
             <a
               href="https://www.monash.edu/medicine/spahc/paramedicine"
@@ -130,7 +148,7 @@ function SixthSection() {
             </a>
           </div>
           <div className="dwell-logo-container"></div>
-          <h1 className="section-title" style={{ marginTop: "3vh" }}>
+          <h1 className="section-title2" style={{ fontSize: "2.5vh" }}>
             Club Societies
           </h1>
 
@@ -149,7 +167,10 @@ function SixthSection() {
             <img src="/wired.jpeg" alt="Wired Logo" className="logo" />
           </a>
 
-          <h1 className="section-title" style={{ marginTop: "3vh" }}>
+          <h1
+            className="section-title2"
+            style={{ marginTop: "3vh", fontSize: "2.5vh" }}
+          >
             Hackathons I attended
           </h1>
           <a href="https://devpost.com/software/language-translator-app">
@@ -164,7 +185,9 @@ function SixthSection() {
           </a>
         </Col>
         <Col xs={12} md={6}>
-          <h1 className="section-title">The software architecture i've used</h1>
+          <h1 className="section-title" style={{ fontSize: "2.5vh" }}>
+            The software architecture i've used
+          </h1>
 
           <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
             <img

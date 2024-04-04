@@ -5,19 +5,18 @@ import "./carousel.css";
 
 function FifthSection() {
   const images = [
-    { url: "/medium.png", link: "https://medium.com/@appsec.andrewlee" },
-
+    { url: "/medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOS.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
-      url: "/improvement.jpg",
+      url: "/improvements.jpg",
       link: "https://www.google.com.au/books/edition/Atomic_Habits/B3PgDwAAQBAJ?hl=en&gbpv=0",
     },
     {
-      url: "/Kali.png",
+      url: "/kali.png",
       link: "https://www.kali.org/blog/",
     },
     {
-      url: "/OracleVM.png",
+      url: "/oracle.jpg",
       link: "https://blogs.oracle.com/",
     },
     {
@@ -32,9 +31,7 @@ function FifthSection() {
       url: "/pragmatic.jpeg",
       link: "https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf",
     },
-
     { url: "/medium.png", link: "https://medium.com/@appsec.andrewlee" },
-
     { url: "/IOS.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
       url: "/improvement.jpg",
@@ -57,7 +54,9 @@ function FifthSection() {
                 style={{
                   backgroundImage: `url(${image.url})`,
                 }}
-              />
+              >
+                <div className="view-text">View</div>
+              </div>
             </Card>
           </a>
         ))}

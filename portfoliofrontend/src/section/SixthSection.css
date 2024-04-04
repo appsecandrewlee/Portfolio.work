@@ -1,41 +1,23 @@
 .section-title {
   font-family: "Playfair Display";
   font-size: 2.1vh;
-  margin-left: 0vh;
+  text-align: left; /* Align the text to the left */
 }
 
 .section-title2 {
   font-family: "Playfair Display";
   font-size: 2.1vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 2vh;
-  margin-left: 20vh;
+  text-align: right; /* Align the text to the left */
 }
 
-.section-title3 {
-  font-family: "Playfair Display";
-  font-size: 2.1vh;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 0vh;
-  margin-left: -5vh;
-}
-
-/* Adjust the margin for smaller screens */
-@media (max-width: 768px) {
+@media only screen and (max-device-width: 414px) {
+  .section-title,
   .section-title2 {
-    margin-left: 0vh;
+    text-align: center; /* Align the text to the center for iPhones */
   }
 }
 
-.logos-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: left;
-  margin-top: 0vh;
-}
+/**   STOP **/
 
 .monash-logo-container {
   display: flex;
@@ -54,12 +36,12 @@
 }
 
 .dwell-logo {
-  height: 9vh;
+  height: 13vh;
   width: auto;
 }
 
 .logo {
-  height: 8vh;
+  height: 10.2vh;
   width: auto;
   margin: 0.5rem;
   opacity: 0.8;
@@ -67,43 +49,30 @@
   transition:
     opacity 0.3s ease,
     filter 0.3s ease,
-    transform 0.8s ease; /* Add transform to the transition */
+    transform 0.8s ease;
 }
 
 .logo:hover {
   opacity: 1;
   filter: brightness(100%);
-  transform: rotate(360deg); /* Add rotation on hover */
-}
-
-@keyframes rotate {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
+  transform: rotate(360deg);
 }
 
 .monash-logo {
-  height: 8vh;
+  height: 9.6vh;
   width: auto;
-}
-
-body {
-  margin: 0;
-  padding: 0;
 }
 
 .logo2 {
   height: 8vh;
   width: auto;
   margin: 0.5rem;
-
   transition:
     opacity 0.3s ease,
     filter 0.3s ease;
+}
+
+.col {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
