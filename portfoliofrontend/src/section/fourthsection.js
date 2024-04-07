@@ -209,7 +209,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "Designborne.png"}
+                src={process.env.PUBLIC_URL + "/Designborne.png"}
                 alt="Image 1"
               />
             </Modal.Body>
@@ -229,12 +229,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "Nine-Men-Morris.png"}
+              src={process.env.PUBLIC_URL + "/Nine-Men-Morris.png"}
               alt="Image 2"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
               onClick={handleShow1}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
