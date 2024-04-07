@@ -48,7 +48,7 @@ function FirstSection() {
                 duration={500}
               >
                 <img
-                  src={process.env.PUBLIC_URL + "/down.png"}
+                  src={process.env.PUBLIC_URL + "/DOWN.png"}
                   alt="Down arrow"
                   style={{
                     animation: "slideDown 1.5s infinite",
