@@ -8,7 +8,7 @@ function FifthSection() {
     { url: "/MEDIUM.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOS.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
-      url: "/IMPROVEMENTS.jpg",
+      url: "/ai.png",
       link: "https://www.google.com.au/books/edition/Atomic_Habits/B3PgDwAAQBAJ?hl=en&gbpv=0",
     },
     {
@@ -16,19 +16,19 @@ function FifthSection() {
       link: "https://www.kali.org/blog/",
     },
     {
-      url: "/oracle.jpg",
+      url: "/ORACLE.jpg",
       link: "https://blogs.oracle.com/",
     },
     {
-      url: "/code.jpeg",
+      url: "/CODE.jpeg",
       link: "https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf",
     },
     {
-      url: "/stack.jpg",
+      url: "/STACK.jpg",
       link: "https://stackoverflow.com/users/23887012/andrew-lee",
     },
     {
-      url: "/pragmatic.jpeg",
+      url: "/PRAGMATIC.jpeg",
       link: "https://www.cin.ufpe.br/~cavmj/104The%20Pragmatic%20Programmer,%20From%20Journeyman%20To%20Master%20-%20Andrew%20Hunt,%20David%20Thomas%20-%20Addison%20Wesley%20-%201999.pdf",
     },
     { url: "/medium.png", link: "https://medium.com/@appsec.andrewlee" },

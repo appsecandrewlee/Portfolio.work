@@ -47,7 +47,7 @@ function FirstSection() {
                 duration={500}
               >
                 <img
-                  src=""
+                  src="/down.png"
                   alt="Down arrow"
                   style={{
                     animation: "slideDown 1.5s infinite",

@@ -28,7 +28,9 @@ function WhatIDoSection() {
                 fontFamily: "Paul Signature",
                 fontSize: "clamp(6vh, 7vw, 10vh)", // Adjust font size dynamically based on viewport width
               }}
-              onMouseEnter={() => setShowImage("/Desktop.jpg")}
+              onMouseEnter={() =>
+                setShowImage(process.env.PUBLIC_URL + "/Desktop.jpg")
+              }
               onMouseMove={handleMouseMove}
               onMouseLeave={() => setShowImage(null)}
             >
@@ -64,7 +66,9 @@ function WhatIDoSection() {
                 fontSize: "clamp(6vh, 7vw, 10vh)",
                 marginTop: "4vh",
               }}
-              onMouseEnter={() => setShowImage("/servers.jpg")}
+              onMouseEnter={() =>
+                setShowImage(process.env.PUBLIC_URL + "/servers.jpg")
+              }
               onMouseMove={handleMouseMove}
               onMouseLeave={() => setShowImage(null)}
             >
@@ -93,7 +97,9 @@ function WhatIDoSection() {
                 fontSize: "clamp(6vh, 7vw, 10vh)",
                 marginTop: "4vh",
               }}
-              onMouseEnter={() => setShowImage("/curious.jpg")}
+              onMouseEnter={() =>
+                setShowImage(process.env.PUBLIC_URL + "/curious.jpg")
+              }
               onMouseMove={handleMouseMove}
               onMouseLeave={() => setShowImage(null)}
             >
