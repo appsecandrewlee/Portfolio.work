@@ -94,7 +94,7 @@ function NavigationClickable() {
           className="d-lg-none ml-auto"
         >
           <Image
-            src="/hamburger.png"
+            src={process.env.PUBLIC_URL + "/hamburger.png"}
             alt="Menu"
             width="45"
             height="45"
