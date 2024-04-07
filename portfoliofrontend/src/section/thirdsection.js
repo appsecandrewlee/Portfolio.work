@@ -39,7 +39,7 @@ function ThirdSection() {
               {" "}
               <div style={{ textAlign: "center" }}>
                 <img
-                  src="/computer.png"
+                  src={process.env.PUBLIC_URL + "/computer.png"}
                   alt="computer"
                   style={{ width: "58px", height: "50px" }}
                 />
@@ -54,7 +54,7 @@ function ThirdSection() {
               </div>
               <div style={{ textAlign: "center" }}>
                 <img
-                  src="/ai.png"
+                  src={process.env.PUBLIC_URL + "/ai.png"}
                   alt="AI"
                   style={{ width: "65px", height: "50px", marginLeft: "-55px" }}
                 />
@@ -70,7 +70,7 @@ function ThirdSection() {
               </div>
               <div style={{ textAlign: "center" }}>
                 <img
-                  src="/running.png"
+                  src={process.env.PUBLIC_URL + "/running.png"}
                   alt="Running"
                   style={{ width: "62px", height: "50px", marginLeft: "-55px" }}
                 />
