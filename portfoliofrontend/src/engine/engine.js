@@ -18,8 +18,8 @@ function RunEngine() {
       {FirstSection()}
       {SecondSection()}
       {ThirdSection()}
-      {WhatIDoSection()}
       {SixthSection()}
+      {WhatIDoSection()}
       {FourthSection()}
       {FifthSection()}
       {SeventhSection()}

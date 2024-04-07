@@ -5,14 +5,14 @@ import "./carousel.css";
 
 function FifthSection() {
   const images = [
-    { url: "/medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
+    { url: "/MEDIUM.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOS.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
-      url: "/improvements.jpg",
+      url: "/IMPROVEMENTS.jpg",
       link: "https://www.google.com.au/books/edition/Atomic_Habits/B3PgDwAAQBAJ?hl=en&gbpv=0",
     },
     {
-      url: "/kali.png",
+      url: "/KALI.png",
       link: "https://www.kali.org/blog/",
     },
     {
@@ -52,7 +52,7 @@ function FifthSection() {
               <div
                 className="card-image"
                 style={{
-                  backgroundImage: `url(${image.url})`,
+                  backgroundImage: `url(${process.env.PUBLIC_URL + image.url})`,
                 }}
               >
                 <div className="view-text">View</div>

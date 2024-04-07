@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Link } from "react-scroll";
 
 import "./section.css"; // Import CSS file for styles
-import "../loading/loadinganimations.css"; // Import CSS file for loading animations
-
+import "../loading/loadinganimations.css";
 function FirstSection() {
   return (
     <Container className="mt-5" style={{ paddingTop: "25vh" }}>
@@ -48,7 +47,7 @@ function FirstSection() {
                 duration={500}
               >
                 <img
-                  src="/down.png"
+                  src=""
                   alt="Down arrow"
                   style={{
                     animation: "slideDown 1.5s infinite",
