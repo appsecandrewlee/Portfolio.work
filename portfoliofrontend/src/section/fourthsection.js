@@ -287,7 +287,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "Systems.png"}
+              src={process.env.PUBLIC_URL + "/Systems.png"}
               alt="Image 3"
               onClick={handleShow2}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -321,7 +321,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "Systems.png"}
+                src={process.env.PUBLIC_URL + "/Systems.png"}
                 alt="Image 3"
               />
             </Modal.Body>
@@ -352,7 +352,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "HoHeal.png"}
+              src={process.env.PUBLIC_URL + "/HoHeal.png"}
               alt="Image 4"
               onClick={handleShow3}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -376,7 +376,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "HoHeal.png"}
+                src={process.env.PUBLIC_URL + "/HoHeal.png"}
                 alt="Image 4"
               />
             </Modal.Body>
@@ -406,12 +406,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="SQL-Database.png"
+              src={process.env.PUBLIC_URL + "/SQL-Database.png"}
               alt="Image 5"
               onClick={handleShow4}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -436,7 +440,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="SQL-Database.png"
+                src={process.env.PUBLIC_URL + "/SQL-Database.png"}
                 alt="Image 5"
               />
             </Modal.Body>
@@ -456,12 +460,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Advanced-Database-Design.png"
+              src={process.env.PUBLIC_URL + "/Advanced-Database-Design.png"}
               alt="Image 6"
               onClick={handleShow5}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -487,7 +495,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="Advanced-Database-Design.png"
+                src={process.env.PUBLIC_URL + "/Advanced-Database-Design.png"}
                 alt="Image 6"
               />
             </Modal.Body>
@@ -519,12 +527,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Memory.png"
+              src={process.env.PUBLIC_URL + "/Memory.png"}
               alt="Image 7"
               onClick={handleShow6}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
             <p
               className="text-center"
               style={{
