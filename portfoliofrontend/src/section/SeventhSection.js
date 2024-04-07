@@ -49,8 +49,7 @@ function SeventhSection() {
         }}
       >
         <img
-          src="send.png"
-          alt="Send"
+          src={process.env.PUBLIC_URL + "/send.png"}
           className={`text-center ${isVisible ? "fall-down-animation" : ""}`}
           style={{
             fontFamily: "Playfair Display",
