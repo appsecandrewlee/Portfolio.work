@@ -182,7 +182,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Designborne.png"
+              src={process.env.PUBLIC_URL + "/Designborne.png"}
               alt="Image 1"
               onClick={handleShow}
             />
@@ -209,7 +209,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="Designborne.png"
+                src={process.env.PUBLIC_URL + "Designborne.png"}
                 alt="Image 1"
               />
             </Modal.Body>
@@ -229,7 +229,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Nine-Men-Morris.png"
+              src={process.env.PUBLIC_URL + "Nine-Men-Morris.png"}
               alt="Image 2"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
               onClick={handleShow1}
@@ -259,7 +259,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="Nine-Men-Morris.png"
+                src={process.env.PUBLIC_URL + "Nine-Men-Morris.png"}
                 alt="Image 2"
               />
             </Modal.Body>
@@ -279,7 +279,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Systems.png"
+              src={process.env.PUBLIC_URL + "Systems.png"}
               alt="Image 3"
               onClick={handleShow2}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
