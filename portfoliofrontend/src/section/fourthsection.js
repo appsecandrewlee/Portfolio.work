@@ -194,7 +194,11 @@ function FourthSection() {
             >
               Text-based Designborne (Dragonborne Replica Game)
             </p>
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
           <Modal
             show={showModal}
@@ -257,7 +261,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>Design Patterns & OOP Principles</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -288,7 +292,11 @@ function FourthSection() {
               onClick={handleShow2}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -307,11 +315,15 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>OS algorithms and processes</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img className="project-image" src="Systems.png" alt="Image 3" />
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "Systems.png"}
+                alt="Image 3"
+              />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose2}>
@@ -340,12 +352,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="HoHeal.png"
+              src={process.env.PUBLIC_URL + "HoHeal.png"}
               alt="Image 4"
               onClick={handleShow3}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
           <Modal
             show={showModal3}
@@ -358,7 +374,11 @@ function FourthSection() {
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img className="project-image" src="HoHeal.png" alt="Image 4" />
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "HoHeal.png"}
+                alt="Image 4"
+              />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
