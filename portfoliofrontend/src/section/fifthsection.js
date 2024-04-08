@@ -5,14 +5,14 @@ import "./carousel.css";
 
 function FifthSection() {
   const images = [
-    { url: "/MEDIUM.jpg", link: "https://medium.com/@appsec.andrewlee" },
+    { url: "/medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOSDEV.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
       url: "/ai.png",
       link: "https://www.google.com.au/books/edition/Atomic_Habits/B3PgDwAAQBAJ?hl=en&gbpv=0",
     },
     {
-      url: "/KALI.png",
+      url: "/kalinew.png",
       link: "https://www.kali.org/blog/",
     },
     {
@@ -20,7 +20,7 @@ function FifthSection() {
       link: "https://blogs.oracle.com/",
     },
     {
-      url: "/CODE.jpeg",
+      url: "/code.jpeg",
       link: "https://github.com/jnguyen095/clean-code/blob/master/Clean.Code.A.Handbook.of.Agile.Software.Craftsmanship.pdf",
     },
     {
