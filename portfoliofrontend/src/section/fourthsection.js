@@ -67,7 +67,7 @@ function FourthSection() {
 
   const handleClose = () => {
     setAnimate(false);
-    setTimeout(() => setShowModal(false), 300); // match the duration of your transition
+    setTimeout(() => setShowModal(false), 300);
   };
 
   useEffect(() => {
@@ -217,6 +217,7 @@ function FourthSection() {
                 alt="Image 1"
               />
             </Modal.Body>
+            <Modal.Body>Computer Science</Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
