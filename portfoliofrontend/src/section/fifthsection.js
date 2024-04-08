@@ -5,7 +5,7 @@ import "./carousel.css";
 
 function FifthSection() {
   const images = [
-    { url: "/medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
+    { url: "/Medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOSDEV.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
       url: "/improving.jpg",
