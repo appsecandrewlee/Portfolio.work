@@ -16,7 +16,7 @@ function FifthSection() {
       link: "https://www.kali.org/blog/",
     },
     {
-      url: "/oracle.svg",
+      url: "/oracle.jpg",
       link: "https://blogs.oracle.com/",
     },
     {
