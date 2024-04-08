@@ -8,7 +8,7 @@ function FifthSection() {
     { url: "/medium.jpg", link: "https://medium.com/@appsec.andrewlee" },
     { url: "/IOSDEV.jpg", link: "https://github.com/appsecandrewlee/Level-Up" },
     {
-      url: "/ai.png",
+      url: "/stack.jpg",
       link: "https://www.google.com.au/books/edition/Atomic_Habits/B3PgDwAAQBAJ?hl=en&gbpv=0",
     },
     {
