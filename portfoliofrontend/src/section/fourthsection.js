@@ -217,7 +217,7 @@ function FourthSection() {
                 alt="Image 1"
               />
             </Modal.Body>
-            <Modal.Body>Computer Science</Modal.Body>
+            <Modal.Body> </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
@@ -407,7 +407,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/SQL-Database.png"}
+              src={process.env.PUBLIC_URL + "/SQL.png"}
               alt="Image 5"
               onClick={handleShow4}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -441,7 +441,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "/SQL-Database.png"}
+                src={process.env.PUBLIC_URL + "/SQL.png"}
                 alt="Image 5"
               />
             </Modal.Body>
