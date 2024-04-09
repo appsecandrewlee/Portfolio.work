@@ -359,6 +359,15 @@ function FourthSection() {
             <Modal.Header closeButton>
               <Modal.Title>OS algorithms and processes</Modal.Title>
             </Modal.Header>
+
+            <Modal.Body>
+              {" "}
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "/Systems.png"}
+                alt="Image 3"
+              />
+            </Modal.Body>
             <Modal.Body>
               I delved deep into system processes, scheduling methodologies, and
               their practical implementation. Leveraging the concepts of First
@@ -382,14 +391,6 @@ function FourthSection() {
               </Button>
             </Modal.Body>
 
-            <Modal.Body>
-              {" "}
-              <img
-                className="project-image"
-                src={process.env.PUBLIC_URL + "/Systems.png"}
-                alt="Image 3"
-              />
-            </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose2}>
                 Close
@@ -435,7 +436,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>Holistics Healing Dynamic CMS store</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -445,6 +446,29 @@ function FourthSection() {
                 alt="Image 4"
               />
             </Modal.Body>
+            <Modal.Body>
+              In the development of the CMS software for "Holistics Healing," I
+              leveraged PHP and MySQL to create a comprehensive platform
+              tailored to the company's needs. Implementing the
+              Model-View-Controller (MVC) architecture, I ensured the separation
+              of concerns, fostering code reusability, and enhancing
+              maintainability throughout the project's lifecycle. The
+              utilization of PHP facilitated dynamic content generation and
+              server-side processing, enabling seamless interaction with the
+              database. By employing MySQL as the database management system, I
+              established a robust data storage and retrieval mechanism,
+              ensuring efficient management of user information, services, and
+              transactions.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
