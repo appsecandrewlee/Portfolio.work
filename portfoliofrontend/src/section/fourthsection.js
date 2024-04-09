@@ -470,7 +470,7 @@ function FourthSection() {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose3}>
                 Close
               </Button>
             </Modal.Footer>
@@ -535,6 +535,26 @@ function FourthSection() {
                 alt="Image 5"
               />
             </Modal.Body>
+            <Modal.Body>
+              "Meticulously" means to do something with great attention to
+              detail and thoroughness. In this context, it emphasizes the
+              careful and precise approach taken in designing the database for
+              Cruise Ship Customer Management. By using "meticulously," I wanted
+              to convey that the database design process was thorough and
+              deliberate, ensuring that all aspects of the database, including
+              normalization, ACID properties, and schema design, were carefully
+              considered and implemented to meet the requirements and objectives
+              of the project.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/SQL-database-design"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
