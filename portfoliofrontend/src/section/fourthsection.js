@@ -418,7 +418,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/Holistics.png"}
+              src={process.env.PUBLIC_URL + "/HoHeal.png"}
               alt="Image 4"
               onClick={handleShow3}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -442,7 +442,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "/Holistics.png"}
+                src={process.env.PUBLIC_URL + "/HoHeal.png"}
                 alt="Image 4"
               />
             </Modal.Body>
@@ -523,7 +523,9 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>
+                Database Design for Cruise Ship Customer Management
+              </Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -549,7 +551,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/Advanced-Database-Design.png"}
+              src={process.env.PUBLIC_URL + "/Advanced.png"}
               alt="Image 6"
               onClick={handleShow5}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -584,7 +586,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "/Advanced-Database-Design.png"}
+                src={process.env.PUBLIC_URL + "/Advanced.png"}
                 alt="Image 6"
               />
             </Modal.Body>
