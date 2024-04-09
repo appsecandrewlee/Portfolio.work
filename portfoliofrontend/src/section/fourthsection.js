@@ -217,7 +217,24 @@ function FourthSection() {
                 alt="Image 1"
               />
             </Modal.Body>
-            <Modal.Body> </Modal.Body>
+            <Modal.Body>
+              In the project "Designborne," I adeptly implemented SOLID
+              principles, ensuring that each class had a single responsibility,
+              facilitating easy maintenance and scalability. Object-oriented
+              programming was utilized extensively, enabling modular code
+              organization and promoting code reuse through inheritance and
+              polymorphism. The DRY (Don't Repeat Yourself) principle guided the
+              development process, leading to concise and efficient code where
+              common functionality was abstracted into reusable components.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close

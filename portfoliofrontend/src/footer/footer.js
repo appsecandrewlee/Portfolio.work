@@ -1,21 +1,45 @@
 import React from "react";
-import "./footer.css";
 
 function Footer() {
   return (
-    <div className="footer">
-      <div className="footer-content">
-        <div className="footer-section about">
-          <h1 className="logo-text"></h1>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <span>© 2024 Andrew Lee</span>
-        <span className="linkedin">Gmail</span>
-        <span className="linkedin">Github</span>
-        <span className="linkedin">Linkedin</span>
-        <span className="linkedin">Medium</span>
-      </div>
+    <div
+      style={{
+        textAlign: "center",
+        borderTop: "1px solid black",
+        padding: "1em",
+      }}
+    >
+      <p>© 2024 Andrew Lee</p>
+      <a
+        href="mailto:appsec.andrewlee@gmail.com"
+        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
+      >
+        Gmail
+      </a>
+      <a
+        href="https://github.com/your-username"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
+      >
+        Github
+      </a>
+      <a
+        href="https://www.linkedin.com/in/your-username/"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
+      >
+        LinkedIn
+      </a>
+      <a
+        href="https://medium.com/@your-username"
+        target="_blank"
+        rel="noopener noreferrer"
+        style={{ color: "black", textDecoration: "none" }}
+      >
+        Medium
+      </a>
     </div>
   );
 }
