@@ -279,7 +279,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Design Patterns & OOP Principles</Modal.Title>
+              <Modal.Title>Text-based Board Game</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -288,6 +288,30 @@ function FourthSection() {
                 src={process.env.PUBLIC_URL + "/Nine-Men-Morris.png"}
                 alt="Image 2"
               />
+            </Modal.Body>
+            <Modal.Body>
+              In the text-based Nine Men Morris project, I employed a
+              combination of design patterns, SOLID principles, and
+              object-oriented programming techniques to create a robust and
+              efficient game experience. By adhering to SOLID principles, each
+              class in the project exhibited a clear and single responsibility,
+              ensuring modularity and maintainability throughout the codebase.
+              Object-oriented programming facilitated the creation of reusable
+              and extensible components, enabling the game's logic to be
+              implemented in a structured and organized manner. The project
+              extensively applied the DRY (Don't Repeat Yourself) principle,
+              minimizing code duplication and promoting code reuse across
+              different sections of the game. This approach led to concise and
+              efficient code, enhancing readability and reducing the likelihood
+              of errors.{" "}
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game"
+              >
+                Source Code
+              </Button>
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose1}>
@@ -335,6 +359,29 @@ function FourthSection() {
             <Modal.Header closeButton>
               <Modal.Title>OS algorithms and processes</Modal.Title>
             </Modal.Header>
+            <Modal.Body>
+              I delved deep into system processes, scheduling methodologies, and
+              their practical implementation. Leveraging the concepts of First
+              Come, First Served (FCFS) and Round Robin scheduling, I crafted
+              robust algorithms to manage system processes efficiently.he FCFS
+              algorithm, with its simplistic approach of servicing processes
+              based on their arrival time, served as a foundational concept in
+              my project. I meticulously engineered the scheduling logic to
+              ensure fair and orderly execution of processes, adhering to the
+              FCFS paradigm. Additionally, I explored the Round Robin scheduling
+              algorithm, which introduced the concept of time quantum and
+              preemptive scheduling.Allowing for efficient multitasking and
+              resource utilization within the operating system.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Body>
               {" "}
               <img
