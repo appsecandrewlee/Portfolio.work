@@ -418,7 +418,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/HoHeal.png"}
+              src={process.env.PUBLIC_URL + "/Hoheal.png"}
               alt="Image 4"
               onClick={handleShow3}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -442,7 +442,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src={process.env.PUBLIC_URL + "/HoHeal.png"}
+                src={process.env.PUBLIC_URL + "/Hoheal.png"}
                 alt="Image 4"
               />
             </Modal.Body>
