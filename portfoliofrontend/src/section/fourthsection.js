@@ -587,17 +587,6 @@ function FourthSection() {
               className="magnifier"
             />
           </div>
-          <Modal.Body>
-            In the zoo management system project, I employed data science
-            libraries within Neo4j to develop a functionality for finding the
-            shortest path between each node. This approach leveraged Python as
-            the primary programming language for executing the code. By
-            utilizing Neo4j's capabilities alongside Python's data science
-            libraries, the system efficiently computed the shortest paths within
-            the zoo's network of nodes. This integration of technologies
-            facilitated a robust and scalable solution for managing the zoo's
-            operations and logistics effectively.
-          </Modal.Body>
           <p
             className="text-center"
             onClick={handleShow5}
@@ -625,6 +614,18 @@ function FourthSection() {
                 alt="Image 6"
               />
             </Modal.Body>
+            <Modal.Body>
+              In the zoo management system project, I employed data science
+              libraries within Neo4j to develop a functionality for finding the
+              shortest path between each node. This approach leveraged Python as
+              the primary programming language for executing the code. By
+              utilizing Neo4j's capabilities alongside Python's data science
+              libraries, the system efficiently computed the shortest paths
+              within the zoo's network of nodes. This integration of
+              technologies facilitated a robust and scalable solution for
+              managing the zoo's operations and logistics effectively.
+            </Modal.Body>
+
             <Modal.Body className="text-center">
               <Button
                 variant="primary"
@@ -694,7 +695,11 @@ function FourthSection() {
               </Modal.Header>
               <Modal.Body>
                 {" "}
-                <img className="project-image" src="Memory.png" alt="Image 7" />
+                <img
+                  className="project-image"
+                  src={process.env.PUBLIC_URL + "/Memory.png"}
+                  alt="Image 7"
+                />
               </Modal.Body>
               <Modal.Body>
                 In a project exploring security vulnerabilities, I delved into
@@ -735,7 +740,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Networks.png"
+              src={process.env.PUBLIC_URL + "/Networks.png"}
               alt="Image 8"
               onClick={handleShow7}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -759,12 +764,33 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>Network security & packet manipulation</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img className="project-image" src="Networks.png" alt="Image 8" />
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "/Networks.png"}
+                alt="Image 8"
+              />
             </Modal.Body>
+            <Modal.Body>
+              I explored network security vulnerabilities and pulled off a DNS
+              poisoning attack to mess with DNS resolution. I redirected network
+              traffic to sketchy destinations by exploiting flaws in the domain
+              name resolution process. Also, I did a Man-in-the-Middle (MITM)
+              attack using Telnet to listen in on communications between network
+              nodes.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Monash-Network-Security-Subject"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
@@ -782,7 +808,7 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="POMS.png"
+              src={process.env.PUBLIC_URL + "/poms.png"}
               alt="Image 9"
               onClick={handleShow8}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
@@ -806,12 +832,34 @@ function FourthSection() {
           className="fade"
         >
           <Modal.Header closeButton>
-            <Modal.Title>Designborne</Modal.Title>
+            <Modal.Title>Parcel Management Application</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             {" "}
-            <img className="project-image" src="POMS.png" alt="Image 9" />
+            <img
+              className="project-image"
+              src={process.env.PUBLIC_URL + "/poms.png"}
+              alt="Image 9"
+            />
           </Modal.Body>
+          <Modal.Body>
+            I developed a MEAN stack application for parcel management. Using
+            MongoDB, Express.js, Angular, and Node.js, I built a robust system
+            that handles parcel tracking and management efficiently. Postman was
+            instrumental in testing and ensuring the smooth functioning of the
+            application. It was a rewarding project, leveraging various
+            technologies to create a practical solution for parcel management
+            needs.
+          </Modal.Body>
+          <Modal.Body className="text-center">
+            <Button
+              variant="primary"
+              href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project"
+            >
+              Source Code
+            </Button>
+          </Modal.Body>
+
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
               Close
