@@ -934,6 +934,26 @@ function FourthSection() {
                 alt="Image 10"
               />
             </Modal.Body>
+
+            <Modal.Body>
+              I collaborated with a team to develop an application for Macathon.
+              Together, we utilized machine learning and openCV to create a
+              system capable of recognizing different languages and providing
+              real-time translations. Additionally, we implemented an
+              authentication system using fastAPIs to ensure security and user
+              privacy. This project highlighted our collective skills in
+              software development and demonstrated the practical application of
+              AI technologies in solving real-world problems.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/MACathon_2023"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
