@@ -813,7 +813,11 @@ function FourthSection() {
               onClick={handleShow8}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
           <p
             className="text-center"
@@ -891,7 +895,11 @@ function FourthSection() {
               alt="Image 10"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -933,12 +941,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Android.png"
+              src={process.env.PUBLIC_URL + "/Android.png"}
               alt="Image 11"
               onClick={handleShow10}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -961,7 +973,11 @@ function FourthSection() {
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img className="project-image" src="Android.png" alt="Image 11" />
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "/Android.png"}
+                alt="Image 11"
+              />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
