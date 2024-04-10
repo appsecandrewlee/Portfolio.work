@@ -537,19 +537,24 @@ function FourthSection() {
             </Modal.Body>
             <Modal.Body>
               In designing the database for Cruise Ship Customer Management, I
-              adhered to principles of normalization and ACID properties to
-              ensure functionality, scalability, and data integrity. leading to
-              the development of a comprehensive schema. Through the application
-              of normalization techniques such as First, Second, and Third
-              Normal Form, I addressed issues of redundancy and dependency
-              within the data model. Additionally, the incorporation of ACID
-              properties guaranteed transactional integrity and reliability. The
-              resulting database design facilitated efficient data management
+              meticulously adhered to principles of normalization and ACID
+              properties to ensure functionality, scalability, and data
+              integrity. This involved a thorough analysis of business
+              requirements and domain-specific constraints, leading to the
+              development of a comprehensive schema. Through the application of
+              normalization techniques such as First, Second, and Third Normal
+              Form, I addressed issues of redundancy and dependency within the
+              data model. Additionally, the incorporation of ACID properties
+              guaranteed transactional integrity and reliability. The resulting
+              database design facilitated efficient data management, streamlined
+              querying, and resilient transaction processing, empowering the
+              organization to manage customer interactions and enhance
+              operational efficiency.{" "}
             </Modal.Body>
             <Modal.Body className="text-center">
               <Button
                 variant="primary"
-                href="https://github.com/appsecandrewlee/Polyglot-Database-Design"
+                href="https://github.com/appsecandrewlee/SQL-Database-Design"
               >
                 Source Code
               </Button>
@@ -582,6 +587,17 @@ function FourthSection() {
               className="magnifier"
             />
           </div>
+          <Modal.Body>
+            In the zoo management system project, I employed data science
+            libraries within Neo4j to develop a functionality for finding the
+            shortest path between each node. This approach leveraged Python as
+            the primary programming language for executing the code. By
+            utilizing Neo4j's capabilities alongside Python's data science
+            libraries, the system efficiently computed the shortest paths within
+            the zoo's network of nodes. This integration of technologies
+            facilitated a robust and scalable solution for managing the zoo's
+            operations and logistics effectively.
+          </Modal.Body>
           <p
             className="text-center"
             onClick={handleShow5}
@@ -608,17 +624,6 @@ function FourthSection() {
                 src={process.env.PUBLIC_URL + "/Advanced.png"}
                 alt="Image 6"
               />
-            </Modal.Body>
-            <Modal.Body>
-              In the zoo management system project, I employed data science
-              libraries within Neo4j to develop a functionality for finding the
-              shortest path between each node. This approach leveraged Python as
-              the primary programming language for executing the code. By
-              utilizing Neo4j's capabilities alongside Python's data science
-              libraries, the system efficiently computed the shortest paths
-              within the zoo's network of nodes. This integration of
-              technologies facilitated a robust and scalable solution for
-              managing the zoo's operations and logistics effectively.
             </Modal.Body>
             <Modal.Body className="text-center">
               <Button
@@ -684,17 +689,35 @@ function FourthSection() {
             >
               <Modal.Header closeButton>
                 <Modal.Title>
-                  Stack Overflow & SQL injection live attack
+                  SQL injection and Software Stack Overflow
                 </Modal.Title>
               </Modal.Header>
               <Modal.Body>
                 {" "}
-                <img
-                  className="project-image"
-                  src={process.env.PUBLIC_URL + "/Memory.png"}
-                  alt="Image 7"
-                />
+                <img className="project-image" src="Memory.png" alt="Image 7" />
               </Modal.Body>
+              <Modal.Body>
+                In a project exploring security vulnerabilities, I delved into
+                exploiting weaknesses in systems. By leveraging stack overflow
+                techniques and injecting malicious payloads, I aimed to
+                establish a backdoor connection to a terminal. Additionally, I
+                experimented with SQL injection methods to extract user email
+                and password information, subsequently manipulating this data.
+                Incorporating stack canary mechanisms bolstered the project's
+                security measures, providing insights into fortifying against
+                such intrusions. Through this endeavor, I gained valuable
+                insights into cybersecurity threats and mitigation strategies,
+                highlighting the importance of robust system defenses.
+              </Modal.Body>
+              <Modal.Body className="text-center">
+                <Button
+                  variant="primary"
+                  href="https://github.com/appsecandrewlee/Software-Security-SQL-Injection-Integer-overflow"
+                >
+                  Source Code
+                </Button>
+              </Modal.Body>
+
               <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>
                   Close
@@ -712,16 +735,12 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/Networks.png"}
+              src="Networks.png"
               alt="Image 8"
               onClick={handleShow7}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img
-              src={process.env.PUBLIC_URL + "/magnifier.png"}
-              alt="Magnifier"
-              className="magnifier"
-            />
+            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
           </div>
 
           <p
@@ -740,15 +759,11 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Network Security</Modal.Title>
+              <Modal.Title>Designborne</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img
-                className="project-image"
-                src={process.env.PUBLIC_URL + "/Networks.png"}
-                alt="Image 8"
-              />
+              <img className="project-image" src="Networks.png" alt="Image 8" />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -767,16 +782,12 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src={process.env.PUBLIC_URL + "/poms.png"}
+              src="POMS.png"
               alt="Image 9"
               onClick={handleShow8}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img
-              src={process.env.PUBLIC_URL + "/magnifier.png"}
-              alt="Magnifier"
-              className="magnifier"
-            />
+            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
           </div>
           <p
             className="text-center"
@@ -795,17 +806,11 @@ function FourthSection() {
           className="fade"
         >
           <Modal.Header closeButton>
-            <Modal.Title>
-              Parcel Management System Built using MEAN stack
-            </Modal.Title>
+            <Modal.Title>Designborne</Modal.Title>
           </Modal.Header>
           <Modal.Body>
             {" "}
-            <img
-              className="project-image"
-              src={process.env.PUBLIC_URL + "/poms.png"}
-              alt="Image 9"
-            />
+            <img className="project-image" src="POMS.png" alt="Image 9" />
           </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose}>
@@ -838,11 +843,7 @@ function FourthSection() {
               alt="Image 10"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img
-              src={process.env.PUBLIC_URL + "/magnifier.png"}
-              alt="Magnifier"
-              className="magnifier"
-            />
+            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
           </div>
 
           <p
