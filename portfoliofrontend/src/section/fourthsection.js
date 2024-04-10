@@ -745,7 +745,11 @@ function FourthSection() {
               onClick={handleShow7}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -890,13 +894,13 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="App1.png"
+              src={process.env.PUBLIC_URL + "/App1.png"}
               onClick={handleShow9}
               alt="Image 10"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
             <img
-              src={process.env.PUBLIC_URL + "magnifier.png"}
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
               alt="Magnifier"
               className="magnifier"
             />
@@ -918,11 +922,17 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>
+                Macathon Machine Learning Translator App
+              </Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
-              <img className="project-image" src="App1.png" alt="Image 10" />
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "/App1.png"}
+                alt="Image 10"
+              />
             </Modal.Body>
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
@@ -947,7 +957,7 @@ function FourthSection() {
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
             <img
-              src={process.env.PUBLIC_URL + "magnifier.png"}
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
               alt="Magnifier"
               className="magnifier"
             />
@@ -969,7 +979,7 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>Android Movie Management Application</Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -996,12 +1006,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Monash_Prod.png"
+              src={process.env.PUBLIC_URL + "/Monash_Prod.png"}
               onClick={handleShow11}
               alt="Image 12"
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -1026,7 +1040,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="Monash_Prod.png"
+                src={process.env.PUBLIC_URL + "/Monash_Prod.png"}
                 alt="Image 12"
               />
             </Modal.Body>
@@ -1057,12 +1071,16 @@ function FourthSection() {
           <div className="project-image-wrapper">
             <img
               className="project-image"
-              src="Portfolio.png"
+              src={process.env.PUBLIC_URL + "/Portfolio.png"}
               alt="Image 13"
               onClick={handleShow12}
               style={{ width: "100%", height: "40vh", objectFit: "cover" }}
             />
-            <img src="/magnifier.png" alt="Magnifier" className="magnifier" />
+            <img
+              src={process.env.PUBLIC_URL + "/magnifier.png"}
+              alt="Magnifier"
+              className="magnifier"
+            />
           </div>
 
           <p
@@ -1087,7 +1105,7 @@ function FourthSection() {
               {" "}
               <img
                 className="project-image"
-                src="Portfolio.png"
+                src={process.env.PUBLIC_URL + "/Portfolio.png"}
                 alt="Image 13"
               />
             </Modal.Body>
