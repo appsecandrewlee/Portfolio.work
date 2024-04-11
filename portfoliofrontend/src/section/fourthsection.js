@@ -724,7 +724,7 @@ function FourthSection() {
               </Modal.Body>
 
               <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose}>
+                <Button variant="secondary" onClick={handleClose6}>
                   Close
                 </Button>
               </Modal.Footer>
@@ -796,7 +796,7 @@ function FourthSection() {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose7}>
                 Close
               </Button>
             </Modal.Footer>
@@ -869,7 +869,7 @@ function FourthSection() {
           </Modal.Body>
 
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose}>
+            <Button variant="secondary" onClick={handleClose8}>
               Close
             </Button>
           </Modal.Footer>
@@ -955,7 +955,7 @@ function FourthSection() {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose9}>
                 Close
               </Button>
             </Modal.Footer>
@@ -1029,7 +1029,7 @@ function FourthSection() {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose10}>
                 Close
               </Button>
             </Modal.Footer>
@@ -1105,7 +1105,7 @@ function FourthSection() {
             </Modal.Body>
 
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose11}>
                 Close
               </Button>
             </Modal.Footer>
@@ -1169,8 +1169,24 @@ function FourthSection() {
                 alt="Image 13"
               />
             </Modal.Body>
+            <Modal.Body>
+              This website serves as my portfolio, showcasing my work as a
+              software engineer. Built using React and JavaScript, it
+              demonstrates my skills and projects to potential employers and
+              collaborators.
+            </Modal.Body>
+            <Modal.Body>
+              <Modal.Body className="text-center">
+                <Button
+                  variant="primary"
+                  href="https://github.com/appsecandrewlee/Software-Developer-Portfolio"
+                >
+                  Source Code (Github - Not Deployment)
+                </Button>
+              </Modal.Body>
+            </Modal.Body>
             <Modal.Footer>
-              <Button variant="secondary" onClick={handleClose}>
+              <Button variant="secondary" onClick={handleClose12}>
                 Close
               </Button>
             </Modal.Footer>
