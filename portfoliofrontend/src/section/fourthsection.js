@@ -1009,6 +1009,25 @@ function FourthSection() {
                 alt="Image 11"
               />
             </Modal.Body>
+            <Modal.Body>
+              I developed a movie management application using Android and Java,
+              leveraging the powerful capabilities of RoomDB for efficient data
+              storage and management. By deeply understanding the Android
+              lifecycle, I ensured seamless user experiences and optimized
+              performance. Additionally, I integrated Firebase for real-time
+              data synchronization and robust authentication features, enhancing
+              the app's functionality and security.{" "}
+            </Modal.Body>
+
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Android-Movie-Management-Application"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
@@ -1054,7 +1073,9 @@ function FourthSection() {
             className="fade"
           >
             <Modal.Header closeButton>
-              <Modal.Title>Designborne</Modal.Title>
+              <Modal.Title>
+                Monash Paramedicine Platform created using PHP & SQL
+              </Modal.Title>
             </Modal.Header>
             <Modal.Body>
               {" "}
@@ -1064,6 +1085,25 @@ function FourthSection() {
                 alt="Image 12"
               />
             </Modal.Body>
+            <Modal.Body>
+              I developed the official Monash Paramedicine system utilizing
+              CakePHP and MySQL, crafting a robust and efficient platform for
+              managing paramedicine-related data and processes. By leveraging
+              CakePHP's MVC architecture, I ensured clean and organized code,
+              facilitating ease of maintenance and scalability. The integration
+              with MySQL allowed for secure and reliable data storage, crucial
+              for handling sensitive information in the healthcare domain.
+              Moreover, I deployed the system, enabling Monash Paramedicine
+              lecturers to access and utilize it seamlessly, thereby
+              streamlining administrative tasks and enhancing overall efficiency
+              within the department.{" "}
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button variant="primary" href="https://mupap.com.au/">
+                Source Code
+              </Button>
+            </Modal.Body>
+
             <Modal.Footer>
               <Button variant="secondary" onClick={handleClose}>
                 Close
