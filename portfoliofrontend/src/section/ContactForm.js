@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/b3e94e70-eb40-11ee-b428-632ee80a2804"; // Update to the correct endpoint
 
@@ -34,7 +33,6 @@ const ContactForm = () => {
         setSubmitted(true);
       })
       .catch((err) => {
-        // Submit the form manually
         e.target.submit();
       });
   };
@@ -50,8 +48,12 @@ const ContactForm = () => {
   return (
     <form action={FORM_ENDPOINT} onSubmit={handleSubmit} method="POST">
       <div className="row">
-        <div className="col">
-          <label htmlFor="name" className="form-label">
+        <div className="col-md-6">
+          <label
+            htmlFor="name"
+            className="form-label"
+            style={{ color: "black" }}
+          >
             Your Name
           </label>
           <input
@@ -61,10 +63,15 @@ const ContactForm = () => {
             name="name"
             placeholder="Enter your name"
             required
+            style={{ color: "black" }}
           />
         </div>
-        <div className="col">
-          <label htmlFor="email" className="form-label">
+        <div className="col-md-6">
+          <label
+            htmlFor="email"
+            className="form-label"
+            style={{ color: "black" }}
+          >
             Email address
           </label>
           <input
@@ -72,14 +79,18 @@ const ContactForm = () => {
             className="form-control"
             id="email"
             name="email"
-            style={{ width: "80vh", color: "Black" }} // Adjust the width of the input field
+            style={{ width: "100%", color: "black" }}
             placeholder="name@example.com"
             required
           />
         </div>
       </div>
-      <div className="mb-3" style={{ fontFamily: "Playfair Display" }}>
-        <label htmlFor="message" className="form-label">
+      <div className="mb-3" style={{ marginTop: "2vh" }}>
+        <label
+          htmlFor="message"
+          className="form-label"
+          style={{ color: "black" }}
+        >
           Your Message
         </label>
         <textarea
@@ -89,6 +100,7 @@ const ContactForm = () => {
           rows="8"
           placeholder="Enter your message"
           required
+          style={{ color: "black" }}
         ></textarea>
       </div>
       <button
