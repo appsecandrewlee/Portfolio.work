@@ -128,7 +128,7 @@ function SixthSection() {
             </a>
             <a href="https://github.com/appsecandrewlee/hackathon-ML">
               <img
-                src={process.env.PUBLIC_URL + "/Djangoproject.svg"}
+                src={process.env.PUBLIC_URL + "/djangoproject.svg"}
                 alt="Django"
                 className="logo"
               />
