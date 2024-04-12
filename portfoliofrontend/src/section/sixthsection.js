@@ -33,92 +33,196 @@ function SixthSection() {
           </h1>
           <div style={{ marginRight: "0vh" }}>
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
-              <img src="/cassandra.svg" alt="Cassandra" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/cassandra.svg"}
+                alt="Cassandra"
+                className="logo"
+              />
             </a>
             <a href="https://dev.u23s1012.monash-ie.me/">
-              <img src="/php.png" alt="PHP" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/php.png"}
+                alt="PHP"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
-              <img src="/javascript.svg" alt="JS" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/javascript.svg"}
+                alt="JS"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Portfolio.work">
-              <img src="/react.svg" alt="React" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/react.svg"}
+                alt="React"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/hackathon-ML">
-              <img src="/dart.svg" alt="Dart" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/dart.svg"}
+                alt="Dart"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project">
-              <img src="/css.svg" alt="CSS" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/css.svg"}
+                alt="CSS"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/Monash-Software-Testing-Analysis-Subject">
-              <img src="/python.svg" alt="Python" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/python.svg"}
+                alt="Python"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/SQL-database-design">
-              <img src="/mysql.svg" alt="MySQL" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/mysql.svg"}
+                alt="MySQL"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
-              <img src="/html.svg" alt="HTML" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/html.svg"}
+                alt="HTML"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Portfolio.work">
-              <img src="/bootstrap.svg" alt="Bootstrap" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/bootstrap.svg"}
+                alt="Bootstrap"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game">
-              <img src="/java.svg" alt="Java" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/java.svg"}
+                alt="Java"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Android-Movie-Management-Application">
-              <img src="android-studio.svg" alt="Android" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/android-studio.svg"}
+                alt="Android"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
-              <img src="/angular.svg" alt="Angular" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/angular.svg"}
+                alt="Angular"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/hackathon-ML">
-              <img src="/Djangoproject.svg" alt="Django" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/Djangoproject.svg"}
+                alt="Django"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/MACathon_2023">
-              <img src="/npm.svg" alt="NPM" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/npm.svg"}
+                alt="NPM"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
-              <img src="/mongodb.svg" alt="MongoDB" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/mongodb.svg"}
+                alt="MongoDB"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/MACathon_2023">
-              <img src="/firebase.svg" alt="Firebase" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/firebase.svg"}
+                alt="Firebase"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Android-Movie-Management-Application">
-              <img src="/json.svg" alt="Json" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/json.svg"}
+                alt="Json"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee?tab=repositories">
-              <img src="/github.svg" alt="github" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/github.svg"}
+                alt="github"
+                className="logo"
+              />
             </a>
 
             <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
-              <img src="/c.svg" alt="C" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/c.svg"}
+                alt="C"
+                className="logo"
+              />
             </a>
 
             <a href="https://dev.u23s1012.monash-ie.me/">
-              <img src="/jquery.svg" alt="Jquery" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/jquery.svg"}
+                alt="Jquery"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Monash-university-parcel-sender-project">
-              <img src="/nodejs.svg" alt="nodejs" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/nodejs.svg"}
+                alt="nodejs"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
-              <img src="/Linux.png" alt="Linux" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/Linux.png"}
+                alt="Linux"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
-              <img src="/neo4j.png" alt="neo4j" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/neo4j.png"}
+                alt="neo4j"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/SQL-database-design.git">
               {" "}
-              <img src="/oracle.svg" alt="oracle" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/oracle.svg"}
+                alt="oracle"
+                className="logo"
+              />
             </a>
             <a href="https://github.com/appsecandrewlee/Software-Testing-Analysis/blob/main/Software-Quality-Report-On-Monash-Supermarket.pdf">
               {" "}
-              <img src="/CICD.png" alt="Test" className="logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/CICD.png"}
+                alt="Test"
+                className="logo"
+              />
             </a>
           </div>
         </div>
