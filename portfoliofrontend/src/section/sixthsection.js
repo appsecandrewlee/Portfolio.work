@@ -238,7 +238,7 @@ function SixthSection() {
               rel="noopener noreferrer"
             >
               <img
-                src="/University.png"
+                src={process.env.PUBLIC_URL + "/University.png"}
                 alt="Monash University Logo"
                 className="monash-logo"
               />
@@ -248,7 +248,11 @@ function SixthSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/dwell.png" alt="Dwell Logo" className="dwell-logo" />
+              <img
+                src={process.env.PUBLIC_URL + "/dwell.png"}
+                alt="Dwell Logo"
+                className="dwell-logo"
+              />
             </a>
           </div>
           <div className="dwell-logo-container"></div>
@@ -257,18 +261,26 @@ function SixthSection() {
           </h1>
 
           <a href="https://www.monashcoding.com/">
-            <img src="/MAC.png" alt="MAC Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/MAC.png"}
+              alt="MAC Logo"
+              className="logo"
+            />
           </a>
 
           <a href="https://monsec.io/">
             <img
-              src="/cybersec.png"
+              src={process.env.PUBLIC_URL + "/cybersec.png"}
               alt="Cybersecurity Logo"
               className="logo"
             />
           </a>
           <a href="https://wired.org.au/">
-            <img src="/wired.jpeg" alt="Wired Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/wired.jpeg"}
+              alt="Wired Logo"
+              className="logo"
+            />
           </a>
 
           <h1
@@ -278,14 +290,26 @@ function SixthSection() {
             Hackathons I attended
           </h1>
           <a href="https://devpost.com/software/language-translator-app">
-            <img src="/macathon.png" alt="Macathon Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/macathon.png"}
+              alt="Macathon Logo"
+              className="logo"
+            />
           </a>
           <a href="https://devpost.com/software/journal-ko8tlj">
-            <img src="/unihack2023.png" alt="Unihack Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/unihack2023.png"}
+              alt="Unihack Logo"
+              className="logo"
+            />
           </a>
 
           <a href="https://monsec.io/competitions/#monsec-beginner-ctf">
-            <img src="/monsec.jpeg" alt="CTF Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/monsec.jpeg"}
+              alt="CTF Logo"
+              className="logo"
+            />
           </a>
         </Col>
         <Col xs={12} md={6}>
@@ -295,20 +319,28 @@ function SixthSection() {
 
           <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
             <img
-              src="/refactoring.png"
+              src={process.env.PUBLIC_URL + "/refactoring.png"}
               alt="Refactoring Guru Logo"
               className="logo"
             />
           </a>
           <a href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game">
-            <img src="/SOLID.png" alt="SOLID Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/SOLID.png"}
+              alt="SOLID Logo"
+              className="logo"
+            />
           </a>
           <a href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project">
-            <img src="/mvc.png" alt="MVC Logo" className="logo" />
+            <img
+              src={process.env.PUBLIC_URL + "/mvc.png"}
+              alt="MVC Logo"
+              className="logo"
+            />
           </a>
           <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
             <img
-              src="/client-server.png"
+              src={process.env.PUBLIC_URL + "/client-server.png"}
               alt="client-server"
               className="logo"
             />
