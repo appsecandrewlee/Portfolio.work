@@ -1,11 +1,12 @@
 import React, { useState, useEffect, useRef } from "react";
 import "./newstyles.css";
-import ContactForm from "./ContactForm"; // Import the ContactForm component
+import ContactForm from "./ContactForm";
 
 function SeventhSection() {
   const [time, setTime] = useState(new Date());
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -16,15 +17,20 @@ function SeventhSection() {
           }
         });
       },
-      { threshold: 0.2 }, // Trigger animation when 20% of the section is visible
+      { threshold: 0.2 },
     );
 
     if (sectionRef.current) {
       observer.observe(sectionRef.current);
     }
 
-    // Cleanup
+    const handleResize = () => {
+      setIsMobile(window.innerWidth <= 1000);
+    };
+
+    window.addEventListener("resize", handleResize);
     return () => {
+      window.removeEventListener("resize", handleResize);
       if (sectionRef.current) {
         observer.unobserve(sectionRef.current);
       }
@@ -84,8 +90,9 @@ function SeventhSection() {
             day: "numeric",
           })}
           .<br></br>
-          You can fill out this form below to send me a message, can't wait to
-          hear from you!
+          {isMobile
+            ? "Click this button to email me!"
+            : "You can fill out this form below to send me a message, can't wait to hear from you!"}
         </p>
         <ContactForm />
       </div>

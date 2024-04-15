@@ -9,7 +9,7 @@ function SecondSection() {
           <h1
             style={{
               fontFamily: "Playfair Display",
-              fontSize: "4.8vh",
+              fontSize: "6vh",
               marginRight: "1vh",
             }}
           >

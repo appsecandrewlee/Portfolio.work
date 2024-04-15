@@ -12,13 +12,13 @@ function WhatIDoSection() {
 
   return (
     <div style={{ paddingTop: "13vh" }}>
-      <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
+      <h1
+        className="text-center"
+        style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}
+      >
         Professional Values
       </h1>
-      <p
-        className="text-center"
-        style={{ fontFamily: "Playfair Display", fontSize: "1.8vh" }}
-      >
+      <p className="text-center" style={{ fontSize: "2vh" }}>
         Aspiring Traits
       </p>
 
