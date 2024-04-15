@@ -6,7 +6,7 @@ function SeventhSection() {
   const [time, setTime] = useState(new Date());
   const [isVisible, setIsVisible] = useState(false);
   const sectionRef = useRef(null);
-  const [isMobile, setIsMobile] = useState(window.innerWidth <= 1000);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 900);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
