@@ -345,6 +345,7 @@ function SixthSection() {
               className="logo"
             />
           </a>
+
           {}
         </Col>
 

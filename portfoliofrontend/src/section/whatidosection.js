@@ -12,12 +12,24 @@ function WhatIDoSection() {
 
   return (
     <div style={{ paddingTop: "13vh" }}>
+      <h1 className="text-center" style={{ fontFamily: "Playfair Display" }}>
+        Professional Values
+      </h1>
+      <p
+        className="text-center"
+        style={{ fontFamily: "Playfair Display", fontSize: "1.8vh" }}
+      >
+        Some values that I abide by
+      </p>
+
       <Container
         style={{
           paddingTop: "4vh",
           animation: "fadeIn 7s",
           paddingLeft: 0,
           marginLeft: 0,
+          marginRight: 0,
+          paddingRight: 0,
         }}
       >
         <Row id="about" noGutters>
@@ -26,7 +38,7 @@ function WhatIDoSection() {
               className="lift-up-animation"
               style={{
                 fontFamily: "Paul Signature",
-                fontSize: "clamp(6vh, 7vw, 10vh)", // Adjust font size dynamically based on viewport width
+                fontSize: "clamp(6vh, 7vw, 10vh)",
               }}
               onMouseEnter={() =>
                 setShowImage(process.env.PUBLIC_URL + "/Desktop.jpg")
@@ -126,6 +138,7 @@ function WhatIDoSection() {
       </Container>
       {showImage && (
         <img
+          className="hover-image"
           src={showImage}
           alt="Hover"
           style={{
@@ -134,8 +147,6 @@ function WhatIDoSection() {
             left: position.x + 400,
             transform: "translate(-50%, -50%) rotate(-15deg)",
             pointerEvents: "none",
-            width: "46vh",
-            height: "35vh",
             transition: "all 0.3s ease-out",
           }}
         />

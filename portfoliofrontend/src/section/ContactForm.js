@@ -1,9 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+
 const FORM_ENDPOINT =
   "https://public.herotofu.com/v1/b3e94e70-eb40-11ee-b428-632ee80a2804"; // Update to the correct endpoint
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+
+  const handleResize = () => {
+    setIsMobile(window.innerWidth <= 768);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", handleResize);
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -110,6 +123,16 @@ const ContactForm = () => {
       >
         Send a message
       </button>
+      {isMobile && (
+        <button
+          style={{ fontFamily: "Playfair Display", marginRight: "90vh" }}
+          className="active:bg-blue-600 hover:focus:outline-none px-6 py-3 mb-1 mr-1 text-sm font-bold text-white uppercase transition-all duration-150 ease-linear bg-black rounded shadow outline-none"
+          type="button"
+          onClick={() => (window.location.href = "mailto:example@example.com")}
+        >
+          Email me here
+        </button>
+      )}
     </form>
   );
 };
