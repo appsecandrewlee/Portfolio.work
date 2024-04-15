@@ -19,7 +19,7 @@ function WhatIDoSection() {
         className="text-center"
         style={{ fontFamily: "Playfair Display", fontSize: "1.8vh" }}
       >
-        Some values that I abide by
+        Aspiring Traits
       </p>
 
       <Container
