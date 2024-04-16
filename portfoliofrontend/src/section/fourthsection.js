@@ -186,20 +186,22 @@ function FourthSection() {
               alt="Image 1"
               onClick={handleShow}
             />
-            <p
-              className="text-center"
-              style={{
-                fontFamily: "Playfair Display",
-              }}
-            >
-              Text-based Designborne (Dragonborne Replica Game)
-            </p>
+
             <img
               src={process.env.PUBLIC_URL + "/magnifier.png"}
               alt="Magnifier"
               className="magnifier"
             />
           </div>
+          <p
+            className="text-center"
+            style={{
+              fontFamily: "Playfair Display",
+            }}
+          >
+            Dragonborne Replica Game
+          </p>
+
           <Modal
             show={showModal}
             onHide={handleClose}
@@ -673,63 +675,65 @@ function FourthSection() {
               alt="Magnifier"
               className="magnifier"
             />
-            <p
-              className="text-center"
-              style={{
-                fontFamily: "Playfair Display",
-              }}
-            >
-              {" "}
-              Software Security (Stack Overflow)
-            </p>
-            <Modal
-              show={showModal6}
-              onHide={handleClose6}
-              size="lg"
-              className="fade"
-            >
-              <Modal.Header closeButton>
-                <Modal.Title>
-                  SQL injection and Software Stack Overflow
-                </Modal.Title>
-              </Modal.Header>
-              <Modal.Body>
-                {" "}
-                <img
-                  className="project-image"
-                  src={process.env.PUBLIC_URL + "/Memory.png"}
-                  alt="Image 7"
-                />
-              </Modal.Body>
-              <Modal.Body>
-                In a project exploring security vulnerabilities, I delved into
-                exploiting weaknesses in systems. By leveraging stack overflow
-                techniques and injecting malicious payloads, I aimed to
-                establish a backdoor connection to a terminal. Additionally, I
-                experimented with SQL injection methods to extract user email
-                and password information, subsequently manipulating this data.
-                Incorporating stack canary mechanisms bolstered the project's
-                security measures, providing insights into fortifying against
-                such intrusions. Through this endeavor, I gained valuable
-                insights into cybersecurity threats and mitigation strategies,
-                highlighting the importance of robust system defenses.
-              </Modal.Body>
-              <Modal.Body className="text-center">
-                <Button
-                  variant="primary"
-                  href="https://github.com/appsecandrewlee/Software-Security-SQL-Injection-Integer-overflow"
-                >
-                  Source Code
-                </Button>
-              </Modal.Body>
-
-              <Modal.Footer>
-                <Button variant="secondary" onClick={handleClose6}>
-                  Close
-                </Button>
-              </Modal.Footer>
-            </Modal>
           </div>
+
+          <p
+            className="text-center"
+            style={{
+              fontFamily: "Playfair Display",
+            }}
+          >
+            {" "}
+            Software Security (Stack Overflow)
+          </p>
+
+          <Modal
+            show={showModal6}
+            onHide={handleClose6}
+            size="lg"
+            className="fade"
+          >
+            <Modal.Header closeButton>
+              <Modal.Title>
+                SQL injection and Software Stack Overflow
+              </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+              {" "}
+              <img
+                className="project-image"
+                src={process.env.PUBLIC_URL + "/Memory.png"}
+                alt="Image 7"
+              />
+            </Modal.Body>
+            <Modal.Body>
+              In a project exploring security vulnerabilities, I delved into
+              exploiting weaknesses in systems. By leveraging stack overflow
+              techniques and injecting malicious payloads, I aimed to establish
+              a backdoor connection to a terminal. Additionally, I experimented
+              with SQL injection methods to extract user email and password
+              information, subsequently manipulating this data. Incorporating
+              stack canary mechanisms bolstered the project's security measures,
+              providing insights into fortifying against such intrusions.
+              Through this endeavor, I gained valuable insights into
+              cybersecurity threats and mitigation strategies, highlighting the
+              importance of robust system defenses.
+            </Modal.Body>
+            <Modal.Body className="text-center">
+              <Button
+                variant="primary"
+                href="https://github.com/appsecandrewlee/Software-Security-SQL-Injection-Integer-overflow"
+              >
+                Source Code
+              </Button>
+            </Modal.Body>
+
+            <Modal.Footer>
+              <Button variant="secondary" onClick={handleClose6}>
+                Close
+              </Button>
+            </Modal.Footer>
+          </Modal>
         </div>
         <div
           style={{
