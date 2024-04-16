@@ -51,7 +51,6 @@ function SeventhSection() {
           alignItems: "center",
           textAlign: "center",
           flexDirection: "column",
-          padding: "2vh",
         }}
       >
         <img
@@ -71,7 +70,7 @@ function SeventhSection() {
             fontSize: "7vh",
           }}
         >
-          Don't be shy, let's get in touch!
+          Let's get in touch!
         </h1>
         <p id="contact" style={{ fontFamily: "Playfair Display" }}>
           Let me know if you want to chat with me or discuss opportunities, I'm
