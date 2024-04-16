@@ -19,11 +19,13 @@ function RunEngine() {
       {SecondSection()}
       {ThirdSection()}
       {SixthSection()}
-      {WhatIDoSection()}
       {FourthSection()}
       {FifthSection()}
       {SeventhSection()}
+
       {CursorTracker()}
+
+      {WhatIDoSection()}
       {Footer()}
     </>
   );

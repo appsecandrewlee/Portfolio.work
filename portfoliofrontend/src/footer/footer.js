@@ -1,45 +1,41 @@
-import React from "react";
+import React, { useState } from "react";
+import { Link } from "react-scroll";
 
 function Footer() {
+  const [hovered, setHovered] = useState(false);
+
   return (
-    <div
-      style={{
-        textAlign: "center",
-        borderTop: "1px solid black",
-        padding: "1em",
-      }}
-    >
-      <p>© 2024 Andrew Lee</p>
-      <a
-        href="mailto:appsec.andrewlee@gmail.com"
-        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
-      >
-        Gmail
-      </a>
-      <a
-        href="https://github.com/your-username"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
-      >
-        Github
-      </a>
-      <a
-        href="https://www.linkedin.com/in/your-username/"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: "black", textDecoration: "none", marginRight: "1em" }}
-      >
-        LinkedIn
-      </a>
-      <a
-        href="https://medium.com/@your-username"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{ color: "black", textDecoration: "none" }}
-      >
-        Medium
-      </a>
+    <div className="text-center">
+      <hr
+        style={{
+          width: "100%",
+          borderTop: "1px solid black",
+          margin: 0,
+        }}
+      />
+      <Link to="aboutme" spy={true} smooth={true} offset={-70} duration={500}>
+        <p
+          style={{
+            color: "black",
+            textDecoration: "none",
+            margin: 0,
+            fontSize: "5vh",
+            fontFamily: "Paul Signature",
+            cursor: "pointer",
+          }}
+          onMouseEnter={() => setHovered(true)}
+          onMouseLeave={() => setHovered(false)}
+        >
+          {hovered ? "Click Here" : "© 2024 Andrew Lee"}
+        </p>
+      </Link>
+      <hr
+        style={{
+          width: "100%",
+          borderTop: "1px solid black",
+          margin: 0,
+        }}
+      />
     </div>
   );
 }
