@@ -15,7 +15,7 @@ function FirstSection() {
               style={{
                 fontFamily: "Playfair Display",
                 marginBottom: "1vh",
-                fontSize: "max(8vh, 4vw)",
+                fontSize: "clamp(6vh, 10vw, 8vh)",
               }}
             >
               Hi, I'm Andrew!
