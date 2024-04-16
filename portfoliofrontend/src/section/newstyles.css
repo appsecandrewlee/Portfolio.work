@@ -222,3 +222,14 @@
     height: 23vh;
   }
 }
+
+.image {
+  position: absolute;
+  left: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .image {
+    left: 10%;
+  }
+}
