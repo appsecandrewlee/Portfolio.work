@@ -11,14 +11,11 @@ function WhatIDoSection() {
 
   return (
     <div style={{ paddingTop: "13vh", overflowX: "hidden" }}>
-      <h1
+      <p
         className="text-center"
-        style={{ fontFamily: "Playfair Display", fontSize: "6vh" }}
+        style={{ fontSize: "2.5vh", fontFamily: "Playfair Display" }}
       >
-        Professional Values
-      </h1>
-      <p className="text-center" style={{ fontSize: "2vh" }}>
-        Aspiring Traits
+        Professionalism and Personality
       </p>
 
       <Container
@@ -34,7 +31,7 @@ function WhatIDoSection() {
               className="lift-up-animation"
               style={{
                 fontFamily: "Playfair  Display",
-                fontSize: "clamp(6vh, 7vw, 4vh)",
+                fontSize: "clamp(4vh, 7vw, 4.8vh)",
                 lineHeight: "0.9",
                 width: "200vw",
               }}
@@ -44,46 +41,54 @@ function WhatIDoSection() {
               onMouseMove={handleMouseMove}
               onMouseLeave={() => setShowImage(null)}
             >
-              <span>
-                <sup
-                  style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
-                >
-                  01
-                </sup>{" "}
-                Continuous Development
-              </span>
-              <span>
-                <sup
-                  style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
-                >
-                  001
-                </sup>{" "}
-                Continuous Development
-              </span>
+              <sup
+                style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
+              >
+                01
+              </sup>{" "}
+              <span>Continuous Development</span>
               <sup
                 style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
               >
                 001
               </sup>{" "}
-              Continuous Development
+              <span>Continuous Development</span>
               <sup
                 style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
               >
                 001
               </sup>{" "}
-              Continuous Development
+              <span>Continuous Development</span>
               <sup
                 style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
               >
                 001
               </sup>{" "}
-              Continuous Development
+              <span>Continuous Development</span>
+              <sup
+                style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
+              >
+                001
+              </sup>{" "}
+              <span>Continuous Development</span>
+              <sup
+                style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
+              >
+                001
+              </sup>{" "}
+              <span>Continuous Development</span>
+              <sup
+                style={{ fontSize: "clamp(2vh, 3vw, 4vh)", padding: "0.5ch" }}
+              >
+                001
+              </sup>{" "}
+              <span>Continuous Development</span>
             </h1>
             <h1
               className="lift-up-animation"
               style={{
                 fontFamily: "Playfair Display",
-                fontSize: "clamp(6vh, 7vw, 10vh)",
+                fontSize: "clamp(4vh, 7vw, 10vh)",
                 lineHeight: "0.9",
 
                 marginTop: "4vh",
