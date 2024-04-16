@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./SixthSection.css";
+import "./newstyles.css";
 
 function SixthSection() {
   return (
@@ -25,7 +26,6 @@ function SixthSection() {
           >
             Technologies I've used
           </h1>
-
           <Row>
             <Col xs={12} md={12}>
               <a href="https://dev.u23s1012.monash-ie.me/">
@@ -212,16 +212,6 @@ function SixthSection() {
                 <img
                   src={process.env.PUBLIC_URL + "/oracle.svg"}
                   alt="oracle"
-                  className="logo"
-                />
-              </a>
-            </Col>
-            <Col xs={12} md={12}>
-              <a href="https://github.com/appsecandrewlee/Software-Testing-Analysis/blob/main/Software-Quality-Report-On-Monash-Supermarket.pdf">
-                {" "}
-                <img
-                  src={process.env.PUBLIC_URL + "/CICD.png"}
-                  alt="Test"
                   className="logo"
                 />
               </a>
