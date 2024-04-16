@@ -10,14 +10,7 @@ function WhatIDoSection() {
   };
 
   return (
-    <div style={{ paddingTop: "13vh", overflowX: "hidden" }}>
-      <p
-        className="text-center"
-        style={{ fontSize: "2.5vh", fontFamily: "Playfair Display" }}
-      >
-        Professionalism and Personality
-      </p>
-
+    <div style={{ paddingTop: "0vh", overflowX: "hidden" }}>
       <Container
         style={{
           paddingTop: "4vh",
@@ -32,7 +25,7 @@ function WhatIDoSection() {
               style={{
                 fontFamily: "Playfair  Display",
                 fontSize: "clamp(4vh, 7vw, 4.8vh)",
-                lineHeight: "0.9",
+                lineHeight: "0.7",
                 width: "200vw",
               }}
               onMouseEnter={() =>
@@ -89,7 +82,7 @@ function WhatIDoSection() {
               style={{
                 fontFamily: "Playfair Display",
                 fontSize: "clamp(4vh, 7vw, 10vh)",
-                lineHeight: "0.9",
+                lineHeight: "0.7",
 
                 marginTop: "4vh",
               }}
@@ -170,7 +163,7 @@ function WhatIDoSection() {
               style={{
                 fontFamily: "Playfair Display",
                 fontSize: "clamp(6vh, 7vw, 10vh)",
-                lineHeight: "0.9",
+                lineHeight: "0.7",
 
                 marginTop: "4vh",
               }}
