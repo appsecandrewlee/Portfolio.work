@@ -6,13 +6,6 @@ function Footer() {
 
   return (
     <div className="text-center">
-      <hr
-        style={{
-          width: "100%",
-          borderTop: "1px solid black",
-          margin: 0,
-        }}
-      />
       <Link to="aboutme" spy={true} smooth={true} offset={-70} duration={500}>
         <p
           style={{
@@ -29,13 +22,6 @@ function Footer() {
           {hovered ? "Click Here" : "© 2024 Andrew Lee"}
         </p>
       </Link>
-      <hr
-        style={{
-          width: "100%",
-          borderTop: "1px solid black",
-          margin: 0,
-        }}
-      />
     </div>
   );
 }

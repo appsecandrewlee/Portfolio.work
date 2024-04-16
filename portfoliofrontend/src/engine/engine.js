@@ -21,11 +21,11 @@ function RunEngine() {
       {SixthSection()}
       {FourthSection()}
       {FifthSection()}
+
       {SeventhSection()}
 
       {CursorTracker()}
 
-      {WhatIDoSection()}
       {Footer()}
     </>
   );
