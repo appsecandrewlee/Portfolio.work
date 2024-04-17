@@ -212,7 +212,7 @@ function SixthSection() {
             <Col className="text-center">
               <div className="section">
                 <h1 style={{ fontFamily: "Playfair Display", fontSize: "2.5vh" }}>
-                  Where i've worked
+                  Where I've worked
                 </h1>
               <a
               href="https://www.monash.edu/medicine/spahc/paramedicine"
@@ -302,7 +302,7 @@ function SixthSection() {
             />
           </a>
           <h1 className="section-title" style={{ fontSize: "2.5vh" }}>
-            The software architecture i've used
+            The software architecture I've used
           </h1>
 
           <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
