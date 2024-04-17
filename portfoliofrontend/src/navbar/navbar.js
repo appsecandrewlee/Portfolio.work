@@ -216,7 +216,7 @@ function NavigationClickable() {
                   fontSize: "12.5vh",
                 }}
               >
-                <sup>2</sup>About me
+                <sup>2</sup>About
               </span>
             </Link>{" "}
           </div>
