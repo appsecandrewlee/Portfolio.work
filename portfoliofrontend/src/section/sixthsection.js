@@ -196,27 +196,151 @@ function SixthSection() {
                 className="logo"
               />
             </a>
-            <a href="https://github.com/appsecandrewlee/Polyglot-Database-Design">
-              <img
-                src={process.env.PUBLIC_URL + "/neo4j.png"}
-                alt="neo4j"
-                className="logo"
-              />
-            </a>
-            <a href="https://github.com/appsecandrewlee/SQL-database-design.git">
+            <a href="https://github.com/appsecandrewlee/Software-Testing-Analysis/blob/main/Software-Quality-Report-On-Monash-Supermarket.pdf">
               {" "}
               <img
-                src={process.env.PUBLIC_URL + "/oracle.svg"}
-                alt="oracle"
+                src={process.env.PUBLIC_URL + "/CICD.png"}
+                alt="Test"
                 className="logo"
               />
             </a>
+
           </div>
         </Col>
-        <Col xs={0} md={6}></Col>
+        <Col md={6} className="text-center">
+          <Row>
+            <Col className="text-center">
+              <div className="section">
+                <h1 style={{ fontFamily: "Playfair Display", fontSize: "2.5vh" }}>
+                  Where i've worked
+                </h1>
+              <a
+              href="https://www.monash.edu/medicine/spahc/paramedicine"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={process.env.PUBLIC_URL + "/University.png"}
+                alt="Monash University Logo"
+                className="monash-logo"
+              />
+            </a>
+            <a
+              href="https://dwellstudent.com.au/adelaide/east-end-adelaide/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={process.env.PUBLIC_URL + "/dwell.png"}
+                alt="Dwell Logo"
+                className="dwell-logo"
+              />
+            </a>
+
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+              <div className="section">
+                <h1 style={{ fontFamily: "Playfair Display", fontSize: "2.5vh" }}>
+                  Clubs and Societies
+                </h1>
+                <a href="https://www.monashcoding.com/">
+            <img
+              src={process.env.PUBLIC_URL + "/MAC.png"}
+              alt="MAC Logo"
+              className="logo"
+            />
+          </a>
+
+          <a href="https://monsec.io/">
+            <img
+              src={process.env.PUBLIC_URL + "/cybersec.png"}
+              alt="Cybersecurity Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://wired.org.au/">
+            <img
+              src={process.env.PUBLIC_URL + "/wired.jpeg"}
+              alt="Wired Logo"
+              className="logo"
+            />
+          </a>
+
+              </div>
+            </Col>
+          </Row>
+          <Row>
+            <Col className="text-center">
+              <div className="section">
+                <h1 style={{ fontFamily: "Playfair Display", fontSize: "2.5vh" }}>
+                  Hackathons I attended
+                </h1>
+              
+               <a href="https://devpost.com/software/language-translator-app">
+            <img
+              src={process.env.PUBLIC_URL + "/macathon.png"}
+              alt="Macathon Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://devpost.com/software/journal-ko8tlj">
+            <img
+              src={process.env.PUBLIC_URL + "/unihack2023.png"}
+              alt="Unihack Logo"
+              className="logo"
+            />
+          </a>
+
+          <a href="https://monsec.io/competitions/#monsec-beginner-ctf">
+            <img
+              src={process.env.PUBLIC_URL + "/monsec.jpeg"}
+              alt="CTF Logo"
+              className="logo"
+            />
+          </a>
+          <h1 className="section-title" style={{ fontSize: "2.5vh" }}>
+            The software architecture i've used
+          </h1>
+
+          <a href="https://github.com/appsecandrewlee/Nine-Men-Morris-Game/tree/main/Nine-Men-Morris/Nine-Men-Morris/src">
+            <img
+              src={process.env.PUBLIC_URL + "/refactoring.png"}
+              alt="Refactoring Guru Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Object-Oriented-Programming-Text-Based-Dragonborne-Game">
+            <img
+              src={process.env.PUBLIC_URL + "/SOLID.png"}
+              alt="SOLID Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Software-Developer-Industry-Mock-Client-Project">
+            <img
+              src={process.env.PUBLIC_URL + "/mvc.png"}
+              alt="MVC Logo"
+              className="logo"
+            />
+          </a>
+          <a href="https://github.com/appsecandrewlee/Low-Level-System-Scheduling-and-Operating-Systems">
+            <img
+              src={process.env.PUBLIC_URL + "/client-server.png"}
+              alt="client-server"
+              className="logo"
+            />
+          </a>
+              </div>
+            </Col>
+          </Row>
+        </Col>
       </Row>
     </Container>
   );
 }
 
 export default SixthSection;
+
