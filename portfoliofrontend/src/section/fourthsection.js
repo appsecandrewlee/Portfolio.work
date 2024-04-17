@@ -132,7 +132,7 @@ function FourthSection() {
               }}
             >
               Completed Projects{" "}
-              <span style={{ fontFamily: "Paul Signature", marginLeft: "2vh" }}>
+              <span style={{ fontFamily: "Playfair Display", marginLeft: "2vh" }}>
                 <TextAnimation.Slide
                   target="Projects"
                   text={[
