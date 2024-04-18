@@ -10,18 +10,19 @@ function ThirdSection() {
             style={{
               backgroundColor: "#ECECEC",
               width: "75%",
-              height: "25vh",
+              height: "20vh",
               margin: "2vh auto",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
-              paddingTop: "2vh",
+              paddingTop: "1vh",
             }}
           >
             <p
               style={{
-                fontSize: "2.5vh",
+                marginTop: "1vh",
+                fontSize: "2vh",
                 fontFamily: "Playfair Display",
               }}
             >
@@ -33,20 +34,19 @@ function ThirdSection() {
                 justifyContent: "space-around",
                 width: "100%",
                 marginTop: "auto",
-                marginBottom: "2.5vh",
+                marginBottom: "1.5vh",
               }}
             >
-              {" "}
               <div style={{ textAlign: "center" }}>
                 <img
                   src={process.env.PUBLIC_URL + "/computer.png"}
                   alt="computer"
-                  style={{ width: "58px", height: "50px" }}
+                  style={{ width: "8vh", height: "7vh" }}
                 />
                 <p
                   style={{
-                    fontSize: "15px",
-                    marginTop: "20px",
+                    fontSize: "1.8vh",
+                    marginTop: "1vh",
                   }}
                 >
                   Techie
@@ -56,13 +56,13 @@ function ThirdSection() {
                 <img
                   src={process.env.PUBLIC_URL + "/ai.png"}
                   alt="AI"
-                  style={{ width: "65px", height: "50px", marginLeft: "-55px" }}
+                  style={{ width: "9.5vh", height: "7vh", marginLeft: "-8vh" }}
                 />
                 <p
                   style={{
-                    fontSize: "15px",
-                    marginLeft: "-55px",
-                    marginTop: "20px",
+                    fontSize: "1.8vh",
+                    marginLeft: "-8vh",
+                    marginTop: "1vh",
                   }}
                 >
                   ML Enthusiast
@@ -72,13 +72,13 @@ function ThirdSection() {
                 <img
                   src={process.env.PUBLIC_URL + "/running.png"}
                   alt="Running"
-                  style={{ width: "62px", height: "50px", marginLeft: "-55px" }}
+                  style={{ width: "8.5vh", height: "7vh", marginLeft: "-8vh" }}
                 />
                 <p
                   style={{
-                    fontSize: "15px",
-                    marginLeft: "-55px",
-                    marginTop: "20px",
+                    fontSize: "1.8vh",
+                    marginLeft: "-8vh",
+                    marginTop: "1vh",
                   }}
                 >
                   Runner
