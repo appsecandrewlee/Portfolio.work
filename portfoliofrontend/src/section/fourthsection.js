@@ -136,16 +136,16 @@ function FourthSection() {
                   target="Projects"
                   text={[
                     "Android Applications",
-                    "Object oriented Programming",
+                    "OOP Programming",
                     "Penetration Testing",
                     "Microservices",
                     "UI/UX design",
                     "Network Security",
                     "Static Analysis",
                     "Penetration Testing",
-                    "Games Programming",
+                    "Design Patterns",
                     "Mobile Applications",
-                    "MEAN stack Web Apps",
+                    "MEAN stack",
                   ]}
                   animation={{
                     duration: 200,
