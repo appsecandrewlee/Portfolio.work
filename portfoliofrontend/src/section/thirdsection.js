@@ -21,7 +21,7 @@ function ThirdSection() {
           >
             <p
               style={{
-                marginTop: "1vh",
+                
                 fontSize: "2vh",
                 fontFamily: "Playfair Display",
               }}
