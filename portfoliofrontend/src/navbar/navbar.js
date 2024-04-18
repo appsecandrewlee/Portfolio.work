@@ -117,6 +117,7 @@ function NavigationClickable() {
             <Link
               activeClass="active"
               to="Experience"
+              id="AL"
               spy={true}
               smooth={true}
               offset={-70}
