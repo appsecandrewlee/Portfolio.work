@@ -14,9 +14,6 @@
 }
 
 
-
-
-
 .rocket-logo {
   width: 50px;
   height: auto;
@@ -29,3 +26,18 @@
   }
 }
 
+
+@keyframes flyUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-100vh);
+    opacity: 0;
+  }
+}
+
+.rocket-fly {
+  animation: flyUp 1s forwards;
+}
