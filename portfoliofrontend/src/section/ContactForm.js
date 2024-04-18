@@ -41,7 +41,7 @@ const ContactForm = () => {
 
   if (submitted) {
     return (
-      <div className="alert alert-success" role="alert">
+      <div role="alert" style={{fontFamily: "Playfair Display"}}>
         Thank you! We'll be in touch soon.
       </div>
     );

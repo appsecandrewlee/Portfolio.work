@@ -63,14 +63,8 @@ function SeventhSection() {
             width: "8vh",
           }}
         />
-
-        <h1
-          style={{
-            fontFamily: "Playfair Display",
-            fontSize: "7vh",
-          }}
-        >
-          Let's get in touch!
+        <h1 className="default-size">
+        Let's get in touch!
         </h1>
         <p id="contact" style={{ fontFamily: "Playfair Display" }}>
           Let me know if you want to chat with me or discuss opportunities, I'm

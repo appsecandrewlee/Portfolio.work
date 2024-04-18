@@ -88,3 +88,21 @@
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
+
+
+
+
+h1.default-size {
+  font-family: "Playfair Display";
+  font-size: 6vh;
+  padding-top: 2.0vh;
+  text-align: center;
+  margin-bottom: 3vh;
+}
+
+@media (max-width: 768px) {
+  h1.default-size {
+    font-size: 4vh; 
+  }
+}
+
