@@ -63,10 +63,11 @@ function SeventhSection() {
             width: "8vh",
           }}
         />
-        <h1 className="default-size">
+         <h1 className="default-size">
         Let's get in touch!
         </h1>
-        <p id="contact" style={{ fontFamily: "Playfair Display" }}>
+        <div>
+        <p id="contact" style={{ fontFamily: "Playfair Display"}}>
           Let me know if you want to chat with me or discuss opportunities, I'm
           always happy to grow with likeminded people!
           <br />
@@ -87,6 +88,7 @@ function SeventhSection() {
             ? "Click this button to email me!"
             : "You can fill out this form below to send me a message, can't wait to hear from you!"}
         </p>
+        </div>
         <ContactForm />
       </div>
     </div>

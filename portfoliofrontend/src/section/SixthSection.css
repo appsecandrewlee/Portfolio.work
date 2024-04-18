@@ -90,14 +90,10 @@
 }
 
 
-
-
 h1.default-size {
   font-family: "Playfair Display";
   font-size: 6vh;
-  padding-top: 2.0vh;
   text-align: center;
-  margin-bottom: 3vh;
 }
 
 @media (max-width: 768px) {
