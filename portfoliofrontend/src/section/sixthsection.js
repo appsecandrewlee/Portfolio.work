@@ -219,7 +219,7 @@ function SixthSection() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img
+              <img style= {{marginLeft: "6vh"}}
                 src={process.env.PUBLIC_URL + "/University.png"}
                 alt="Monash University Logo"
                 className="monash-logo"

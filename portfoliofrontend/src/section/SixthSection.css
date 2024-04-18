@@ -24,7 +24,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 0vh;
-  margin-left: 4.5vh;
+  margin-left: 2vh;
 }
 
 .dwell-logo-container {
@@ -36,7 +36,7 @@
 }
 
 .dwell-logo {
-  height: 13vh;
+  height: 12vh;
   width: auto;
 }
 
@@ -71,7 +71,7 @@
 }
 
 .monash-logo {
-  height: 9.6vh;
+  height: 9vh;
   width: auto;
 }
 

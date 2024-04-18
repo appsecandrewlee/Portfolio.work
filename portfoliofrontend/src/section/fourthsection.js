@@ -120,19 +120,18 @@ function FourthSection() {
 
   return (
     <div>
-      <Container style={{ paddingTop: "13vh", animation: "fadeIn 2s" }}>
+      <Container style={{ paddingTop: "10vh", animation: "fadeIn 2s" }}>
         <Row>
           <Col className="text-center" id="projects">
             <h1
               style={{
                 fontFamily: "Playfair Display",
                 paddingTop: "5vh",
-                marginLeft: "2vh",
                 fontSize: "6vh",
               }}
             >
               Completed Projects{" "}
-              <span style={{ fontFamily: "Playfair Display", marginLeft: "2vh" }}>
+              <span style={{ fontFamily: "Playfair Display"}}>
                 <TextAnimation.Slide
                   target="Projects"
                   text={[
