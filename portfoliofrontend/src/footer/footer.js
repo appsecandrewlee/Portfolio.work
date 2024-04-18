@@ -17,7 +17,7 @@ function Footer() {
   return (
     <div className="text-center" style={{ marginTop: "2vh" }}>
       <div style={{ position: "relative", display: "inline-block" }}>
-        <Link to="aboutme" spy={true} smooth={true} offset={-70} duration={500}>
+        <Link to="Intro" spy={true} smooth={true} offset={-70} duration={500}>
           <div>
             <img
               src={process.env.PUBLIC_URL + "/rocket.png"}
@@ -28,7 +28,7 @@ function Footer() {
           </div>
         </Link>
       </div>
-      <Link to="aboutme" spy={true} smooth={true} offset={-70} duration={500}>
+      <Link to="Intro" spy={true} smooth={true} offset={-70} duration={500}>
         <p className="footer-text">
           {animationStarted ? "Click Here" : "© 2024 Andrew Lee"}
         </p>

@@ -9,7 +9,7 @@ function FirstSection() {
   return (
     <Container className="mt-5" style={{ paddingTop: "25vh" }}>
       <Row>
-        <Col className="text-center">
+        <Col className="text-center" id="Intro">
           <div className="typewriter">
             <h1
               style={{
