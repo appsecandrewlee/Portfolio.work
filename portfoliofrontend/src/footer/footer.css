@@ -12,3 +12,20 @@
     font-size: 2vh;
   }
 }
+
+
+
+
+
+.rocket-logo {
+  width: 50px;
+  height: auto;
+}
+
+
+@media screen and (max-width: 768px) {
+  .rocket-logo {
+    width: 30px;
+  }
+}
+
